@@ -15,7 +15,7 @@
 - **Domain:** the set of all reasonable inputs values of a function.
 - **Range:** The set of all corresponding output values of a function
 - **Interval Notation:** [0, 100]
-- **Inequality:** 0 ≤ x ≤ 100
+- **Inequality:** 0 <= x <= 100
 
 ## Functions
 
@@ -74,9 +74,9 @@ function.
    2. **c = 5b + 12**
 2. Isolate the input until it's by itself
 
-#### Inverse of a Graph Example
-
-![](assets/inverse_functions_001.png)
+### Inverse of a Graph Example
+<
+![](assets/inverse_functions_002.png)
 
 ## Writing Out Functions
 
@@ -153,3 +153,4 @@ number when put into the formula:
 
 This would be written as: **_For every additional minute_ that the water is left
 running, the _amount of water_ in the bathtub _increases_ by 1.75 gallons.**
+
