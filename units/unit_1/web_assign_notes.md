@@ -50,3 +50,5 @@ model is termed **mathematical modeling**.
 
 - Mathematical models are helpful in making predictions or solving problems in 
   real-world situations.
+
+# Section 1.2

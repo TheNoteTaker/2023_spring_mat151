@@ -2,6 +2,8 @@
 
 # Module 2
 
+The Google Slides can be found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRfTdak79YenGY3YC0UNRa1j6N7MTNX8HQNgC1czcfaWhCsbMbWEV6WXKL8-J_NDZPgU4nZeauusE1t/embed?start=false&loop=false&delayms=3000&slide=id.p1)
+
 ## General Notes
 
 - **Quantity:** A characteristic or attribute of some object you can imagine
@@ -154,3 +156,65 @@ number when put into the formula:
 This would be written as: **_For every additional minute_ that the water is left
 running, the _amount of water_ in the bathtub _increases_ by 1.75 gallons.**
 
+---
+
+# Module 3
+
+The Google Slides can be found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRQZlIZ2sA2AG4r3AcRtlHJL4G_KHOqBBWZXkOfJbGEOpCWHhsg9yBZfZfAfkv_lmKRIGB0kkMrIS48/embed?start=false&loop=false&delayms=3000)
+
+## General Notes
+
+## Constant Rate of Change (Continued)
+
+The <u>value</u> of the constant rate of change can always be determined by:
+
+![](assets/rate_of_change_001.png)
+
+Knowing this info, you can also get the other values.
+
+### Change in Output Value
+
+![](assets/rate_of_change_002.png)
+
+### Change in Input Value
+
+![](assets/rate_of_change_003.png)
+
+---
+
+
+Instead of always using the formula to find the change in input / output or the
+CROC, you can use repeated reasoning.
+
+Imagine you have a pool with a hose in it filling it with water (it already has 
+some in it). The CROC is **18.2**, and after **63 minutes**, there's 
+**1382.6 gallons** inside. Instead of using formulas to find each value per 
+different minute, you could create a formula:
+
+1. Find **![](assets/triangle.png)t** _(change in input value)_
+   - **t - 63 = ![](assets/triangle.png)t**
+2. Find **![](assets/triangle.png)v** _(change in output value)_
+   1. **18.2(![](assets/triangle.png)t) = ![](assets/triangle.png)v**
+   2. **18.2(t - 63) = ![](assets/triangle.png)v**
+3. Find **_v_** _(total volume)_
+   1. **![](assets/triangle.png)v + 1382.6 = _v_**
+   2. **18.2(t - 63) + 1382.6 = _v_**
+
+- **![](assets/triangle.png)** means **Increment / Change**
+
+The last one is the finished formula for a function that defines a relationship
+between the volume of water in the pool and the amount of time the pool has been
+filling. It can also be summarized as:
+
+### Change In Output
+
+> **v = CROC(t - reference input) + reference Output**\
+> **v = CROC(t - t<sub>ref</sub>) + v<sub>ref</sub>**
+
+## General Form of a Linear Function
+
+Whenever two quantities are related by a CROC, it's a line on a graph.
+
+- That's where the **Linear Function** comes from
+- The process above can be used any time there's a CROC and a known reference
+  point.
