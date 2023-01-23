@@ -61,8 +61,7 @@ function.
 - This image shows that `L` is a function of `r` (the name of the function is
   `m`) and that `r` is a function of `L` (specifically, the function is the
   inverse of function `m` and is written **m<sup>-1</sup>**).
-- **y = f(x) means that x = f<sup>-1</sup>(y) if the inverse of f is a function.
-  **
+- **y = f(x) means that x = f<sup>-1</sup>(y) if the inverse of f is a function.**
 - The inverse of a function is not always a function.
     - _A function has one input and one output_
 

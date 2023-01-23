@@ -39,7 +39,8 @@ to buy:
 | 5   | 35,671  | $11,995 | Red=1    | 84,651         | 4    | 
 | 6   | 3,446   | $16,495 | Grey=2   | 71,426         | 1    | 
 
-5. Find the highest or lowest ranked one based off how you created your equation.
+5. Find the highest or lowest ranked one based off how you created your
+   equation.
 
 A decision-factor equation is a **symbolic form**, while a table of data is in
 **numeric form**.
@@ -48,7 +49,83 @@ A **mathematical model** is an abstract description of a concrete system using
 mathematical concepts and language. The process of developing a mathematical
 model is termed **mathematical modeling**.
 
-- Mathematical models are helpful in making predictions or solving problems in 
+- Mathematical models are helpful in making predictions or solving problems in
   real-world situations.
 
-# Section 1.2
+# Section 1.2 - Functions and Function Notation
+
+## Functions
+
+- **Variables:** A quantity that changes value
+- **Constants:** A numeric value that does not change.
+- **Function (Single Variable):** A process or correspondence relating two
+  quantities in which each input value generates exactly one output value.
+
+Alternatively, a function may be thought of as a correspondence between two 
+sets of values. That is, each item from a set of inputs is matched with a single
+item from a set of outputs.
+
+Although a function process may be implied in the correspondence, the 
+correspondence doesn’t explicitly state what the process is.
+
+- Function correspondences do not have to include numbers.
+- An example **what would be a function** would be a credit score. The input is 
+  the credit score, and it outputs a single APR. We can assume there is an 
+  implicit correspondence that would relate the two values, but cannot state 
+  explicitly what that process is.
+- An example of **what wouldn't be a function** are airlines destination cities.
+  The airline could go to multiple different cities, meaning that there's 
+  outputs for the single input.
+
+## Vertical Line Test
+
+![](assets/vertical_line_test.png)
+
+- The **vertical line test** may be used to determine if a graph is a function
+  or not.
+- If the vertical line crosses the graph more than once, it is **not** a 
+  function.
+
+## Function Notation
+
+**Function notation** is a formal mathematical notation developed to communicate 
+mathematical concepts on a universal scale.
+
+![](assets/function_notation_001.png)
+
+- `x` is the **independent variable**.
+- `y` is the **dependent variable**. because the value of `y` depends on the 
+  value of `x`.
+- This can also be written as **_y = f(x)_**.
+
+## Evaluating Functions and Solving Function Equations
+
+The process of finding the output of a function that corresponds with a given
+input is called **evaluating a function**.
+
+- It's also possible to evaluate non-numeric values. The exact same rules apply.
+
+![](assets/evaluating_non_numeric_functions.png)
+
+When we say **"Solve _f(c)_ = 6.91"**, it means "find the input value that
+correctly corresponds with an output value of 6.91."
+
+## Condensed Function Notation
+
+- Full function notation: **D = _f_(h)**
+  - **D = _f_(h) = 8h**
+- Condensed function notation: **D(h)**
+  - **D(h) = 8h**
+
+![](assets/condensed_function_notation.png)
+
+## Evaluating and Solving a Function Equation From a Graph
+
+Use the above function definitions and plug the input into the function.
+
+## Multivariable Functions
+
+A function with more than one input, such as:
+
+- The compound interest formula: **A = P(1 + <sup>r</sup>/<sub>n</sub>)<sup>nt</sup>**
+- Volume of a box formula: **V = _lwh_**
