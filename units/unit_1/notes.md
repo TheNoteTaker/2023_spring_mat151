@@ -2,15 +2,17 @@
 
 # Module 2
 
-The Google Slides can be found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRfTdak79YenGY3YC0UNRa1j6N7MTNX8HQNgC1czcfaWhCsbMbWEV6WXKL8-J_NDZPgU4nZeauusE1t/embed?start=false&loop=false&delayms=3000&slide=id.p1)
+The Google Slides can be
+found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRfTdak79YenGY3YC0UNRa1j6N7MTNX8HQNgC1czcfaWhCsbMbWEV6WXKL8-J_NDZPgU4nZeauusE1t/embed?start=false&loop=false&delayms=3000&slide=id.p1)
 
 ## General Notes
 
 - **Quantity:** A characteristic or attribute of some object you can imagine
   measuring.
-  - When defining or identifying a quantity, we must be specific about what 
-    object, and what specific characteristic about that object, we're referring 
-    to.
+    - When defining or identifying a quantity, we must be specific about what
+      object, and what specific characteristic about that object, we're
+      referring
+      to.
 - **Variable:** A character or symbol used to represent a quantity.
 - **Evaluate:** To find the output of a function corresponding to a given input.
 - **Solving:** To find the input of a function corresponding to a given output
@@ -24,6 +26,7 @@ The Google Slides can be found [Here](https://docs.google.com/presentation/d/e/2
 ### Function Language
 
 We say "_output_ as a function of _input_" or "_output_ in terms of _input_"
+
 - y as a function of x **or** y in terms of x
 - _E.g. Length of the steel band with respect to the radius of the oil drums_
 
@@ -48,7 +51,7 @@ If an input points to more than one output, then it is **not** a function.
 
 ## Inverse Functions
 
-An inverse function is a function that undoes the operations of an original 
+An inverse function is a function that undoes the operations of an original
 function.
 
 ![](assets/functions_004_oil_drum.png)
@@ -58,9 +61,10 @@ function.
 - This image shows that `L` is a function of `r` (the name of the function is
   `m`) and that `r` is a function of `L` (specifically, the function is the
   inverse of function `m` and is written **m<sup>-1</sup>**).
-- **y = f(x) means that x = f<sup>-1</sup>(y) if the inverse of f is a function.**
+- **y = f(x) means that x = f<sup>-1</sup>(y) if the inverse of f is a function.
+  **
 - The inverse of a function is not always a function.
-  - _A function has one input and one output_
+    - _A function has one input and one output_
 
 ![](assets/inverse_functions_001.png)
 
@@ -72,11 +76,12 @@ function.
 ### Finding The Inverse
 
 1. Write the formula without the notation:
-   1. **c = j(b) = 5b + 12**
-   2. **c = 5b + 12**
+    1. **c = j(b) = 5b + 12**
+    2. **c = 5b + 12**
 2. Isolate the input until it's by itself
 
 ### Inverse of a Graph Example
+
 <
 ![](assets/inverse_functions_002.png)
 
@@ -111,30 +116,31 @@ of the function crosses the vertical axis.
 - This point will always be in the form **(0, b)**
 - The vertical intercept can be found graphically by determining the point where
   teh graph crosses the vertical axis.
-- The vertical intercept can be found in a table or algebraically by first 
-  determining the value of **b**. 
-  - To do this, find the output of the function for an input of 0 
-    _(or **f(0) = b**)_. You then write the intercept in the form **(0, b)**.
+- The vertical intercept can be found in a table or algebraically by first
+  determining the value of **b**.
+    - To do this, find the output of the function for an input of 0
+      _(or **f(0) = b**)_. You then write the intercept in the form **(0, b)**.
 
 ### Horizontal Intercepts
 
-The **Horizontal Intercept** of a function is the coordinate point where the 
+The **Horizontal Intercept** of a function is the coordinate point where the
 graph of the function crosses the horizontal axis.
 
 - The point will always be in the form **(a, 0)**.
-- The horizontal intercept can be found graphically by determining the point 
+- The horizontal intercept can be found graphically by determining the point
   where the graph crosses the horizontal axis.
 - The horizontal intercept can be found in a table or algebraically by first
-  determining the value of **a**. 
-  - To do this, find the input of the function for an output of 0 
-    _(or solve for **a** when **f(a) = 0**)_. You then write the intercept in
-    the form **(a, 0)**.
+  determining the value of **a**.
+    - To do this, find the input of the function for an output of 0
+      _(or solve for **a** when **f(a) = 0**)_. You then write the intercept in
+      the form **(a, 0)**.
 
 ## Constant Rate of Change
 
 ![](assets/rate_of_change.png)
 
-It is said that two quantities are related by a **constant rate of change (CROC)**
+It is said that two quantities are related by a **constant rate of change (CROC)
+**
 if the _ratio of the changes in quantities_ is <u>always</u> the same.
 
 - Find the changes between each value in a table for all relevant columns, and
@@ -160,7 +166,8 @@ running, the _amount of water_ in the bathtub _increases_ by 1.75 gallons.**
 
 # Module 3
 
-The Google Slides can be found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRQZlIZ2sA2AG4r3AcRtlHJL4G_KHOqBBWZXkOfJbGEOpCWHhsg9yBZfZfAfkv_lmKRIGB0kkMrIS48/embed?start=false&loop=false&delayms=3000)
+The Google Slides can be
+found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRQZlIZ2sA2AG4r3AcRtlHJL4G_KHOqBBWZXkOfJbGEOpCWHhsg9yBZfZfAfkv_lmKRIGB0kkMrIS48/embed?start=false&loop=false&delayms=3000)
 
 ## General Notes
 
@@ -186,19 +193,19 @@ Knowing this info, you can also get the other values.
 Instead of always using the formula to find the change in input / output or the
 CROC, you can use repeated reasoning.
 
-Imagine you have a pool with a hose in it filling it with water (it already has 
-some in it). The CROC is **18.2**, and after **63 minutes**, there's 
-**1382.6 gallons** inside. Instead of using formulas to find each value per 
+Imagine you have a pool with a hose in it filling it with water (it already has
+some in it). The CROC is **18.2**, and after **63 minutes**, there's
+**1382.6 gallons** inside. Instead of using formulas to find each value per
 different minute, you could create a formula:
 
 1. Find **![](assets/triangle.png)t** _(change in input value)_
-   - **t - 63 = ![](assets/triangle.png)t**
+    - **t - 63 = ![](assets/triangle.png)t**
 2. Find **![](assets/triangle.png)v** _(change in output value)_
-   1. **18.2(![](assets/triangle.png)t) = ![](assets/triangle.png)v**
-   2. **18.2(t - 63) = ![](assets/triangle.png)v**
+    1. **18.2(![](assets/triangle.png)t) = ![](assets/triangle.png)v**
+    2. **18.2(t - 63) = ![](assets/triangle.png)v**
 3. Find **_v_** _(total volume)_
-   1. **![](assets/triangle.png)v + 1382.6 = _v_**
-   2. **18.2(t - 63) + 1382.6 = _v_**
+    1. **![](assets/triangle.png)v + 1382.6 = _v_**
+    2. **18.2(t - 63) + 1382.6 = _v_**
 
 - **![](assets/triangle.png)** means **Increment / Change**
 
@@ -218,3 +225,118 @@ Whenever two quantities are related by a CROC, it's a line on a graph.
 - That's where the **Linear Function** comes from
 - The process above can be used any time there's a CROC and a known reference
   point.
+
+# Module 4
+
+- [Google Slide Notes](https://docs.google.com/presentation/d/e/2PACX-1vRhuAl62YlZaAScnG25vY0S-vfRUNMaE-3lpEeZMmJNSDHuouf-8WPyZQxgZNRPhQN6Eh852i5o5MeX/embed?start=false&loop=false&delayms=3000&slide=id.p1)
+
+## General Notes
+
+<u>General form of a linear function:</u>
+
+![](assets/linear_function_formula_001.png)
+
+When the reference point is the vertical intercept, the formula simplifies:
+
+1. **v = CROC(t - t<sub>ref</sub>) + v<sub>ref</sub>**
+2. **v = CROC(t - 0) + output of VI**
+3. <u>**v = CROC(t) + Output of VI**</u> or <u>**y = m(x) + b**</u>
+
+- This formula is a _special case_ of a Linear Function and can only be used
+  if the reference point is the vertical intercept.
+
+## Average Rate of Change
+
+When the rate is not constant, the rate is called the
+**Average Rate of Change (AVROC)**.
+
+- The average rate of change can be found between **any two points** by:
+    1. finding the constant rate of change between those two points.
+    2. Dividing the constant rate of change by the input.
+
+### Example
+
+| Number</br>of weeks</br>dieting | Brandon's</br>weight in</br>pounds |
+|:-------------------------------:|:----------------------------------:|
+|                0                |                196                 |
+|                2                |                187                 |
+|                7                |                190                 |
+|               12                |                184                 |
+
+- The average rate of change between week **0** and **7** is **-0.86**, but the
+  rate does not go down constantly at this rate. Because of this, the average
+  rate of change means in this scenario:
+
+  > **IF** Brandon's weight had **changed by the same amount each week <u>
+  between
+  > week 0 and week 7</u>**, he <u>_would have_</u> lost 0.86 pounds each week.
+- If you needed to write this about a graph:
+  > **IF** the function changed at a constant rate of change between **x = 0** 
+  > and **x = 7**, we would have a line between those two points and that line 
+  > <u>_would have_</u> a constant rate of **-0.86** (as shown in {color} on 
+  > the graph).
+- It's also important to use the data that is most closely related to the point
+  in time that you are trying to find _(in this case, it would be between week
+  **7** and **12**, not **0** and **7**)_.
+
+The average rate of change is a _hypothetical_ constant rate.
+
+To find what the output would be at any specific non-given point, multiply the
+average rate of change by the change in input:
+
+- **output = AROC(![](assets/triangle.png)Input)**
+    - The same as
+      **output = (<sup>![](assets/triangle.png)
+      output</sup>/<sub>![](assets/triangle.png)
+      input</sub>)(![](assets/triangle.png)Input)**
+
+![](assets/average_rate_of_change_001.png)
+
+### Polynomial Example
+
+**g(x) = 2x<sup>2</sup> - 3x - 4**
+
+Determining the average rate of change between **x = 5** and **x = 1**:
+
+1. **Average Rate of Change = <sup>g(5) - g(1)</sup>/<sub>5 - 1</sub>**
+2. **g(5) = 2(5<sup>2</sup>) - 3(5) - 4 = 31**
+3. **g(1) = 2(1<sup>2</sup>) - 3(1) - 4 = -5**
+4. **Average Rate of Change = <sup>g(5) - g(1)</sup>/<sub>5 - 1</sub> = <sup>
+   31 + 5</sup>/<sub>4</sub> = <sup>36</sup>/<sub>4</sub> = 9**
+
+<u>Image Reference:</u>
+
+![](assets/average_rate_of_change_002.png)
+
+## Linear Regression
+
+When data is not perfectly linear but is close, we create a **Linear Model**,
+a function that _models_ the data. This is done using a process called **Linear
+Regression**.
+
+[How To Graph Linear Regression On Desmos](https://www.youtube.com/watch?v=ihj9D1zPtwg)
+
+1. Click the plus button (Add an item)
+2. Choose **Table**
+3. Add some values (enter or copy/paste)
+4. Change graph settings to better match the data.
+5. Instead of **y<sub>1</sub> = mx<sub>1</sub> + b**, use the **tilde (~)**
+   symbol for the **equals (=)** sign: **y<sub>1</sub> ~ mx<sub>1</sub> + b** 
+   to use linear regression.
+    - To use an exponential pattern, use:
+      **y<sub>1</sub> ~ a * b<sup>x<sub>1</sub></sup>**
+6. To predict a value, use either:
+    1. **x = {desired x value}**
+    2. **m({desired x value}) + b**
+
+- It can be helpful to create a folder hitting the plus button, dragging the
+  table into it, and then closing it.
+
+### Coefficient of Determination
+
+When computing a linear regression model, the **r<sup>2</sup>** is known as the
+coefficient of determination, and it describes the strength of the fit of a
+linear regression model to a set of data.
+
+**The closer the value of r<sup>2</sup> is to 1, the stronger the fit.**
+**r<sup>2</sup>** is always a value between **0** and **1**.
