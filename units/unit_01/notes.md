@@ -121,6 +121,59 @@ function.
 <
 ![](assets/inverse_functions_002.png)
 
+### Example problem
+
+- _Remember not to use linear regression when creating the linear formula,
+  instead use the **point-slope form: y - b = m(x - a)**_
+
+A devastating freeze in California’s Central Valley in January 2007 wiped out
+approximately 75% of the state’s citrus crop. It turns out that the cost for a
+box of oranges is a function of the percentage of the citrus crop that was
+frozen, i.e. **c = g(P)**, where **c** is the price of a box of oranges and
+**P** is the percentage of the citrus crop that was frozen. When only 20% of the
+crop was frozen, the price for a box of oranges was $11.58. However, the price
+per box was $25.32 when 80% of the crop was frozen.
+
+#### Finding The Linear Function
+
+1. Identify the two given points: **(20, 11.58)** and **(80, 25.32)**
+2. Calculate the slope **(m)** using the formula: **m = (y2 - y1) / (x2 - x1)**,
+   where **(x1, y1) = (20, 11.58)** and **(x2, y2) = (80, 25.32)**
+3. Plug in the values into the formula to get: **m = (25.32 - 11.58) / (80 - 20)
+   = (13.74) / (60) = 0.229**
+4. Use the point-slope form of a linear equation to find the equation of the
+   line: **y - y1 = m (x - x1)**, where **(x1, y1) = (20, 11.58)**
+5. Plug in the values into the formula to get: **y - 11.58 = 0.229 (x - 20)**
+6. Rearrange the equation to the standard form: **y = 0.229x + b**, where **b**
+   is the y-intercept
+7. Calculate the y-intercept using the formula: **b = y1 - m * x1**, where
+   **(x1, y1) = (20, 11.58)**
+8. Plug in the values into the formula to get: **b = 11.58 - (0.229 * 20) =
+   11.58 \- 4.58 = 7**
+9. The equation of the line is: **y = 0.229x + 7**, which represents the cost of
+   a box of oranges as a function of the percentage of the citrus crop that was
+   frozen.
+
+#### Finding The Inverse Function
+
+1. Write the original function in the form **y = f(x): c = 0.229P + 7**
+2. Replace **y** with **x** and **x** with **y**: **x = 0.229P + 7**
+3. Solve for **P: x - 7 = 0.229P**, then **P = (x - 7) / 0.229**
+4. The inverse function is: **P = (c - 7) / 0.229**
+
+**Summary:**
+
+1. To find the inverse of a function, switch the roles of **x** and **y**.
+2. Write the original function in the form **y = f(x)**.
+3. Replace **y** with **x** and **x** with **y**.
+4. Solve for the original variable (in this case, P).
+5. The inverse function is the result from step 4.
+
+_Note: The inverse of a function is not always a function. The inverse of a
+function is a function only if the original function is a one-to-one function._
+
+
+
 ## Writing Out Functions
 
 ![](assets/functions_005.png)
