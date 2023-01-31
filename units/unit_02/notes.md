@@ -95,3 +95,21 @@ percent change would be **(150 - 100) / 100 * 100% = 50%**.
 ### General Form of Exponential Function
 
 ![](assets/general_form_of_exponential_function_001.png)
+
+## The Exponential Formula and Graphs
+
+**y = ab<sup>x</sup>**
+
+- As the value of the function of **x -> infinity** (gets larger and larger):
+  - **f(x)** gets closer and closer to **0**
+  - As **x -> infinity**, **f(x) -> 0**
+- As the value of the function of **x -> -infinity** (gets more and more negative):
+  - **f(x)** gets larger and larger
+  - As **x -> -infinity**, **f(x) -> infinity**
+- The effect that **a** has on the function of the graph:
+  - The **vertical intercept** output value
+  - If **a < 0** then there is a vertical reflection.
+- The effect that **b** has on the function of the graph:
+  - Determines growth or decay:
+    - If **b > 1** then growth
+    - If **0 < b < 1** then decay
