@@ -265,3 +265,164 @@ _How to do exponential regression in desmos:_ <https://www.youtube.com/watch?v=X
 
 - Be sure to select **Log Mode** on Desmos for Exponential Regression. If you
   forget to do so, your models will be slightly different.
+
+# Module 8 - Logarithmic Functions
+
+- [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQy816nJ5KdVOCOR0qKdIM5wvgO6qvTnBw75eABfzs6xcdEo6641hOGEyg9bBbpdlcvsXGONwMgliYc/embed?start=false&loop=false&delayms=3000&slide=id.p1)
+- **log** is short for **logarithm**
+
+For solving for the double time, graphing was used before using, as an example,
+**(1.0420)<sup>x</sup> = 2** with it being graphed to find the number. To solve
+this algebraically, you would need to use a **logarithmic function**.
+
+When given a function like **_f_(exp) = 2<sup>exp</sup>**:
+
+![](assets/log_func_001.png)
+
+In order to solve it, you need to find the inverse:
+
+![](assets/log_func_002.png)
+
+## Solving for the Inverse Function Using Log
+
+### Example 1
+
+Assume we know the output of **_f_** is 8 and are looking to 
+solve **2<sup>exp</sup> = 8**, use the inverse function, 
+**f<sup>-1</sup>(8) = 3**.
+
+- This is because **2<sup>3</sup> = 8**
+
+Another example: 
+
+1. **_2<sup>exp</sup> = 32_**
+2. Find how many times **2** goes into **32**
+3. The inverse: **f<sup>-1</sup>(32) = 5**
+   - Because **2<sup>5</sup> = 32**
+
+### Example 2
+
+![](assets/log_func_example001.png)
+
+- Try to keep things as fractions to preserve accuracy
+
+### Example 3
+
+![](assets/log_func_example002.png)
+
+- Try to keep things as fractions to preserve accuracy
+
+### Example 4
+
+1. **g(x) = 19(0.77)<sup>3x</sup>**
+2. **g(x) = 19(0.77<sup>3</sup>)<sup>x</sup>**
+3. **0.77<sup>3</sup>** is the change factor
+
+--- 
+
+The inverse function is known as the **Logarithmic Function**:
+
+![](assets/log_func_003.png)
+
+_Text Versions:_
+
+- **f<sup>-1</sup>(result) = exponent**
+- **log<sub>2</sub>(result) = exponent**
+
+You would read **log<sub>2</sub>(8) = 3** as "log base 2 of 8 equals 3".
+
+- The _result_ is the input and the _exponent_ on the base of 2 is the output.
+
+<u>Find the inverse function of _any_ exponential function:</u>
+
+- **y = log<sub>b</sub>(x)** is the inverse function for **b<sup>y</sup> = x**
+
+![](assets/log_func_004.png)
+
+- Think of it as "What exponent is necessary on **b** to get **x**?"
+
+## Common and Natural Logarithms
+
+Common and Natural logarithms are logarithms that are used so frequently that 
+they have special names:
+
+- **Common Log: log<sub>10</sub>(x)**
+  - It's common to omit the **10** and write it as **log(x)**
+  - **y = log(x)** means "What exponent on 10 gives us **x**?"
+  - **x = 10<sup>y</sup>**
+- **Natural Log: log<sub>e</sub>(x)**
+  - **e ~= 2.71828** also called the _natural number_
+  - When writing the natural log, you write **ln(x)** instead of 
+    **log<sub>e</sub>(x)**.
+
+![](assets/log_func_005.png)
+
+
+### Change of Base Formula
+
+![](assets/log_func_006.png)
+
+## Logarithm Rules
+
+![](assets/log_rules_001.png)
+
+## Graphic Logarithmic Functions
+
+- Great for determining from a scatter plot if a logarithmic model is
+  appropriate for a particular real-world situation.
+
+<u>Function:</u> **y = 2<sup>x</sup>**
+
+<u>Table:</u>
+
+| **x** |           **y**           |
+|:-----:|:-------------------------:|
+|  -2   | <sup>1</sup>/<sub>4</sub> |
+|  -1   | <sup>1</sup>/<sub>2</sub> |
+|   0   |             1             |
+|   1   |             2             |
+|   2   |             4             |
+
+<u>Graph:</u>
+
+![](assets/graphing_log_001.png)
+
+- The function has a **_horizontal_ asymptote at y = 0**
+  - As **x** gets larger and larger in the negative direction, the value of y
+    gets closer and closer to 0.
+
+### The inverse 
+
+**x = log<sub>2</sub>y**
+
+<u>Table:</u>
+
+|           **y**           | **x** |
+|:-------------------------:|:-----:|
+| <sup>1</sup>/<sub>4</sub> |  -2   |
+| <sup>1</sup>/<sub>2</sub> |  -1   |
+|             1             |   0   |
+|             2             |   1   |
+|             4             |   2   |
+
+<u>Graph:</u>
+
+![](assets/graphing_log_002.png)
+
+- The function has a **_vertical_ asymptote at 0**.
+  - As the input approaches 0, the output starts to reach positive or negative
+    infinity.
+
+### Examples
+
+![](assets/graphing_log_003.png)
+
+## Summary
+
+- [Summary of all log notes](assets/logarithmic_functions_summary.pdf)
+
+![](assets/summary_001.png)
+
+A logarithmic function is the inverse of an exponential function.
+
+![](assets/summary_002.png)
