@@ -37,7 +37,7 @@
   - [Linear Regression](#linear-regression)
     - [Coefficient of Determination](#coefficient-of-determination)
 
-# Module 2
+# Module 2 - Function Review, Function Notation, Inverse Functions
 
 The Google Slides can be
 found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRfTdak79YenGY3YC0UNRa1j6N7MTNX8HQNgC1czcfaWhCsbMbWEV6WXKL8-J_NDZPgU4nZeauusE1t/embed?start=false&loop=false&delayms=3000&slide=id.p1)
@@ -253,7 +253,7 @@ running, the _amount of water_ in the bathtub _increases_ by 1.75 gallons.**
 
 ---
 
-# Module 3
+# Module 3 - Constant Rate of Change and Linear Functions
 
 The Google Slides can be
 found [Here](https://docs.google.com/presentation/d/e/2PACX-1vRQZlIZ2sA2AG4r3AcRtlHJL4G_KHOqBBWZXkOfJbGEOpCWHhsg9yBZfZfAfkv_lmKRIGB0kkMrIS48/embed?start=false&loop=false&delayms=3000)
@@ -315,7 +315,7 @@ Whenever two quantities are related by a CROC, it's a line on a graph.
 - The process above can be used any time there's a CROC and a known reference
   point.
 
-# Module 4
+# Module 4 - Linear Functions, Average Rate of Change and Linear Regression
 
 - [Google Slide Notes](https://docs.google.com/presentation/d/e/2PACX-1vRhuAl62YlZaAScnG25vY0S-vfRUNMaE-3lpEeZMmJNSDHuouf-8WPyZQxgZNRPhQN6Eh852i5o5MeX/embed?start=false&loop=false&delayms=3000&slide=id.p1)
 
