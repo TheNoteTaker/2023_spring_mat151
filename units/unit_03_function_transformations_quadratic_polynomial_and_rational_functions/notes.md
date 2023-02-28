@@ -244,7 +244,7 @@ launched can be modeled by:
     - **Option 1:** **s(t)** will equal 0 when any of the factors equal 0, so
       when **t + 0.03 = 0** or **t - 4.03 = 0**:
         1. Get the intercepts from the formula.
-        2. **+0.03** -> **-0.03** and **4.03**
+        2. **+0.03** **&rarr;** **-0.03** and **4.03**
         3. **[-0.03, 0]** and **[4.03, 0]**
     - **Option 2**
         1. Graph the chart
@@ -262,6 +262,9 @@ launched can be modeled by:
     5. Due to symmetry, the vertex will occur halfway between the two zeros:
         1. **<sup>4.03-0.03</sup>/<sub>2</sub> = 2**
         2. **s(2) = 65.934** is the vertex.
+
+The horizontal intercepts (**[0.03, 0]** and **[4.03, 0]**) are often referred
+to as the **zeros** of the function.
 
 ## Problem - Standard Form
 
@@ -381,28 +384,126 @@ approaches **&pm;&infin;**.
 ### Determining End-Behavior
 
 Rather than graphing out each individual polynomial function, instead locate
-the leading term and determine the end-behavior based off it. Some general rules
-for the end behavior of polynomial functions:
+the leading term and determine the end-behavior based off it. 
+
+Some general rules for the end behavior of polynomial functions:
 
 - If the degree of the polynomial is even, the end behavior will be the same,
   going to either positive or negative infinity, based on the sign of the 
   leading coefficient.
-- If the degree of the polynomial is odd, the function will have opposite end
-  end behavior again wit
-
-- **f(x) = 2x<sup>2</sup> + 3x - 10** &rarr;
-  - As **x &rarr; &pm;&infin;, f(x) &thickapprox; 2x<sup>2</sup>**
-- **g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**
-  - As **x &rarr; &pm;&infin;, g(x) &thickapprox; 2x<sup>5</sup>**
-- **h(x) = -8x<sup>2</sup> - 3x<sup>5</sup> - 7x<sup>7</sup> - 9**
-  - As **x &rarr; &pm;&infin;, h(x) &thickapprox; -7x<sup>7</sup>**
-- **j(x) = 14x<sup>4</sup> - 6x<sup>2</sup> - x**
-  - As **x &rarr; &pm;&infin;, j(x) &thickapprox; 14x<sup>4</sup>**
-- **k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**
-  - As **x &rarr; &pm;&infin;, k(x) &thickapprox; -2x<sup>6</sup>**
+- If the degree of the polynomial is odd, the function will have opposite
+  end-behavior of the sign of the leading coefficient, going to either positive or
+  negative infinity, based on the sign of the leading coefficient.
 
 The value of the output is impacted the most by the leading term of the 
-function.
+function. 
+
+- Because of this, **<u>you only need to graph the leading term</u>**.
+- The end-behaviors are referring to each concavity and how the end-behaviors
+  will be either the same or opposite of each-other.
+
+#### Function 1
+
+<img src="assets/end_behavior_graph_001.png" width="920" alt="">
+
+> **f(x) = 2x<sup>2</sup> + 3x - 10**<br/>
+> > As **x &rarr; &pm;&infin;, f(x) &thickapprox; 2x<sup>2</sup>**  <br/>
+> > As **x &rarr; &pm;&infin;, f(x) &rarr; &infin;**
+
+---
+
+#### Function 2
+
+<img src="assets/end_behavior_graph_002.png" width="920" alt="">
+
+> **g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**<br/>
+> > As **x &rarr; &pm;&infin;, g(x) &thickapprox; 2x<sup>5</sup>**<br/>
+> > As **x &rarr; +&infin;, g(x) &rarr; &infin;**<br/>
+> > As **x &rarr; &ndash;&infin;, g(x) &rarr; &ndash;&infin;**
+
+---
+
+#### Function 3
+
+<img src="assets/end_behavior_graph_003.png" width="920" alt="">
+
+> **h(x) = -8x<sup>2</sup> - 3x<sup>5</sup> - 7x<sup>7</sup> - 9**<br/>
+> > As **x &rarr; &pm;&infin;, h(x) &thickapprox; -7x<sup>7</sup>**<br/>
+> > As **x &rarr; +&infin;, g(x) &rarr; &ndash;&infin;**<br/>
+> > As **x &rarr; &ndash;&infin;, g(x) &rarr; &infin;**
+
+---
+
+#### Function 4
+
+<img src="assets/end_behavior_graph_004.png" width="920" alt="">
+
+> **j(x) = 14x<sup>4</sup> - 6x<sup>2</sup> - x**<br/>
+> > As **x &rarr; &pm;&infin;, j(x) &thickapprox; 14x<sup>4</sup>**<br/>
+> > As **x &rarr; &pm;&infin;, j(x) &rarr; &infin;**
+
+---
+
+#### Function 5
+
+<img src="assets/end_behavior_graph_005.png" width="920" alt="">
+
+> **k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**<br/>
+> > As **x &rarr; &pm;&infin;, k(x) &thickapprox; -2x<sup>6</sup>**<br/>
+> > As **x &rarr; &pm;&infin;, k(x) &rarr; &ndash;&infin;**
+
+---
+
+## Relative and Absolute Extrema of Polynomial Functions
+
+- The term **relative extrema** is used to refer to maxima and minima 
+  simultaneously.
+- The graph of a polynomial function of degree **_n_** will have at most 
+  **_n - 1_** relative extrema but it may have fewer.
+- An **odd** function will **never** have an absolute max or min
+- An **even** function will **always** have an absolute max or min
+
+### Relative Extrema of Polynomial Functions
+
+- A **relative maximum** occurs at the point where a graph changes from
+  increasing to decreasing.
+- A **relative minimum** occurs at the point where a graph changes from 
+  decreasing to increasing.
+
+### Absolute Extrema of Polynomial Functions
+
+- A relative maximum is called an **absolute maximum** if the function value is
+  never larger than at this point for all inputs.
+- A relative minimum is called an **absolute minimum** if the function value is
+  never smaller than at this point for all inputs.
+
+## Identifying All Points On a Graph
+
+### Example 1
+
+![](assets/fully_detailed_graph.png)
+
+- This could be a 5<sup>th</sup> degree polynomial because the function has
+  opposite end behavior (so the degree must be odd), there are 4 concavities, 3
+  inflection points, and 4 relative extrema.
+- The inflection points are halfway between each extrema
+
+### Example 2
+
+![](assets/fully_detailed_graph_002.png)
+
+- This could be a 4<sup>th</sup> degree polynomial because the function has the same end
+  behavior (so the degree must be even), there are 3 concavities, 2 inflection
+  points, and 3 relative extrema (one absolute)
+
+## Computing and Graphing a Cubic Function
+
+Use the following formula to graph a cubic function:
+
+> **y<sub>1</sub> ~ ax<sub>1</sub><sup>3</sup> + bx<sub>1</sub><sup>2</sup> + cx<sub>1</sub> + d**
+
+![](assets/cubic_function_regression.png)
+
 
 # Module 11 - Quadratic and Higher-Order Polynomial Functions
 
