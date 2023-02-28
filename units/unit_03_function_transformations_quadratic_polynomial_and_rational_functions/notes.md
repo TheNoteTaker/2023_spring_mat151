@@ -135,6 +135,275 @@ The vertex is the point where the maximum or minimum occurs of the function.
 
 # Module 10 - Function Transformation and Quadratic Functions
 
+- [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
+
+## Quadratic Functions
+
+Basic quadratic function: **f(x) = x<sup>2</sup>**
+
+- Graph is called **parabolic**
+- Shape is open _up_ if **f(x) = x<sup>2</sup>**
+- Shape is open _down_ if **f(x) = -x<sup>2</sup>**
+- Both ends point in the same direction
+- The graph will have a maximum or a minimum
+    - This occurs at the vertex
+- They are symmetric
+    - The axis of symmetry passes through the vertex
+
+There are two types of parabolas:
+
+- **Concave down**
+    - Has a maximum value at the vertex
+    - Does not have a minimum
+- **Concave up**
+    - Has a minimum value at the vertex
+    - Does not have a maximum
+
+## Vertex Form of a Quadratic Function
+
+**y = a(x - h)<sup>2</sup> + k**
+
+- The function above with **a != 0** is in **vertex form**.
+- The point _(h, k)_ is called the **vertex** of the parabola.
+- The effect of the different variables:
+    - **a** is a vertical stretch/compression/reflection
+    - **h** is a horizontal shift left/right
+    - **k** is a vertical shift up/down
+- **h** is the input reference and **k** is the output reference
+    - _(h, k)_ is the reference point
+
+## Different Forms of a Quadratic Function
+
+- **Standard Form: y = ax<sup>2</sup> + bx + c**
+- **Factored Form: y = a(x - x<sub>1</sub>)(x - x<sub>2</sub>)**
+- **Vertex Form: y = a(x - h)<sup>2</sup> + k**
+
+* In some forms, the **vertex** of a function is easier to determine.
+* In other forms, vertical/horizontal intercept are easier to determine.
+
+## Problem - Vertex Form
+
+According to the CDC, the number of AIDS cases among people aged 21 or younger
+in the US is finally starting to decline after seeing many years of increase.
+
+The function that models the number of cases with respect to the number of years
+since 2004 is:  
+**N(x) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
+
+![](assets/vertex_form_graph_001.png)
+
+1. Determine approximately when the number of AIDS cases was at its peak.
+   What was the maximum number?
+    1. Identify whether the graph is concave up or concave down based off if
+       **a** is negative. **It's concave down**.
+    2. Determine the maximum (because it's concave down) by finding the
+       vertex
+    3. Vertex is **[6.829, 41099.728]**, so the answer is **6.829**
+2. Identify and explain the vertical intercept of the function.
+    - **Option 1**
+        1. Graph the function
+        2. Create another entry using **0** as **f(x)**: **f(0)**
+    - **Option 2**
+        1. Substitute **0** into the equation, because it turns into:
+           **f(0) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
+        2. **f(0) = -692.614(0 - 6.829)<sup>2</sup> + 41099.728**
+        3. **f(0) = -692.614(6.829)<sup>2</sup> + 41099.728**
+        4. **f(0) = -692.614(46.635) + 41099.728**
+        5. **f(0) = -32300.221 + 41099.728**
+        6. **f(0) = 8799.507** -> **8799.51**
+3. Determine when the model would predict AIDS cases is zero.
+    1. Graph the function
+    2. Find the horizontal intercepts
+    3. Answer: **~1 year before 2004 and ~14.5 years after 2004**
+4. Determine the range of years we would expect the number of cases to be at
+   least 10,000.
+    1. Graph the function
+    2. Plot a separate line that is 10,000
+    3. Determine where the line intersects with the graph
+    4. _Optional: Use inequalities to create a section visualizing it._
+    5. **Answer: 0.128 <= x <= 13.53**
+
+## Problem - Factored Form
+
+A water rocket can be purchased at many toy stores. One company claims that
+the height above the ground (in feet) for their rocket _t_ seconds after it is
+launched can be modeled by:  
+**s(t) = -16(t + 0.03)(t - 4.03)**
+
+![](assets/factored_form_graph_001.png)
+
+1. Determine the vertical intercept of the function and explain its meaning
+   (if any) in the context of the problem.
+    1. Graph the chart
+    2. Find the vertical intercept
+    3. **[0, 1.934]**
+    4. At the start of the launch, before it has taken off, it is **1.934**
+       feet above the ground.
+2. Determine the horizontal intercepts of the function and explain their
+   meaning (if any) in the context of the problem.
+    - **Option 1:** **s(t)** will equal 0 when any of the factors equal 0, so
+      when **t + 0.03 = 0** or **t - 4.03 = 0**:
+        1. Get the intercepts from the formula.
+        2. **+0.03** -> **-0.03** and **4.03**
+        3. **[-0.03, 0]** and **[4.03, 0]**
+    - **Option 2**
+        1. Graph the chart
+        2. Find the horizontal intercepts
+        3. **[-0.03, 0]** and **[4.03, 0]**
+    - The first intercept has no meaning _**[-0.03, 0]**_, the second intercept
+      means that the rocket will hit the ground **4.03 seconds** after launching.
+3. Determine the vertex of the function and explain its meaning in the context
+   of the problem.
+    1. Graph the function
+    2. Find the vertex
+    3. **[2, 65.934]**
+    4. After 2 seconds from launching, the rocket will be at its highest point
+       of 65.934 feet in the air.
+    5. Due to symmetry, the vertex will occur halfway between the two zeros:
+        1. **<sup>4.03-0.03</sup>/<sub>2</sub> = 2**
+        2. **s(2) = 65.934** is the vertex.
+
+## Problem - Standard Form
+
+First, convert the previous Factored form to standard form:
+
+1. **s(t) = -16(t + 0.03)(t - 4.03)**
+2. **s(t) = -16(t<sup>2</sup> - 4.03t + 0.03t - 0.1209)**
+3. **s(t) = -16t<sup>2</sup> + 64t + 1.9344**
+
+<u> Getting the vertical intercept <b>s(0):</b></u>
+
+The **c** value is always the output of the vertical intercept. In this
+case **1.9344**, so: **[0, 1.9344]**
+
+You can determine the horizontal intercept and vertex by graphing the function:
+
+![](assets/standard_form_graph_001.png)
+
+## Concavity
+
+![](assets/concavity.png)
+
+## Inflection Point
+
+The point on a graph where the function changes concavity is called the
+inflection point.
+
+Consider the following: **x<sup>3</sup>**
+
+![](assets/concavity_002.png)
+
+- An inflection point is a point where the curve changes from bending
+  one way to bending the other way _(like the top of a hill)_.
+- The point where rate of change of the function changes from increasing to
+  decreasing, or from decreasing to increasing.
+
+## Cubic Functions
+
+Cubic functions are functions that have two concavities and one inflection
+point.
+
+### Cubic Function Example 1
+
+![](assets/cubic_function_001.png)
+
+### Cubic Function Example 2
+
+![](assets/cubic_function_002.png)
+
+### Cubic Function Example 3
+
+![](assets/cubic_function_003.png)
+
+## Polynomial Functions
+
+Linear, quadratic, and cubic are all types of **polynomial functions**,
+defined as follows:
+
+![](assets/polynomial_functions_001.png)
+
+- **a<sub>n</sub>x<sup>n</sup>** is the **<u>leading term</u>** of the
+  polynomial.
+- **n** is the **<u>degree</u>** of the polynomial.
+- **a<sub>n</sub>** is the **<u>leading coefficient</u>** of the polynomial.
+- The leading term is **_always_** the term with the largest exponent.
+
+### Examples
+
+**f(x) = 2x<sup>2</sup> + 3x - 10**
+
+- **2x<sup>2</sup>** is the leading term
+- **2** is the LC (Leading Coefficient)
+- **<sup>2</sup>** is the degree
+
+**g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**
+
+- **2x<sup>5</sup>** is the leading term
+- **2** is the LC
+- **<sup>5</sup>** is the degree
+
+**h(x) = -8x<sup>2</sup> + 3x<sup>5</sup> - 7x<sup>7</sup> - 9**
+
+- **-7x<sup>7</sup>** is the leading term
+- **-7** is the LC
+- **<sup>7</sup>** is the degree
+
+**j(x) = 14x<sup>2</sup> - 6x<sup>2</sup> - x**
+
+- **14x<sup>2</sup>** is the leading term
+- **14** is the LC
+- **<sup>2</sup>** is the degree
+
+**k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**
+
+- **-2x<sup>6</sup>** is the leading term
+- **-2** is the LC
+- **<sup>6</sup>** is the degree
+
+## Graphs of Polynomial Functions
+
+> [Polynomial Summary PDF](assets/polynomial_summary.pdf)
+> ![](assets/polynomial_summary.png)
+
+- Because polynomial functions are fairly predictable, we can summarize
+  the characteristics and appearance of the graphs of polynomial functions
+  of the first through fifth degree.
+
+## End Behavior of Polynomial Functions
+
+For any polynomial function, as **x** approaches **&pm;&infin;**, **f(x)**
+approaches **&pm;&infin;**.
+
+- As the magnitude (absolute value) of x gets larger and larger, the magnitude
+  of the function values will also get larger and larger.
+- Symbolically, we write: **as x &rarr; &pm;&infin;, f(x) &rarr; &pm;&infin;**
+
+### Determining End-Behavior
+
+Rather than graphing out each individual polynomial function, instead locate
+the leading term and determine the end-behavior based off it. Some general rules
+for the end behavior of polynomial functions:
+
+- If the degree of the polynomial is even, the end behavior will be the same,
+  going to either positive or negative infinity, based on the sign of the 
+  leading coefficient.
+- If the degree of the polynomial is odd, the function will have opposite end
+  end behavior again wit
+
+- **f(x) = 2x<sup>2</sup> + 3x - 10** &rarr;
+  - As **x &rarr; &pm;&infin;, f(x) &thickapprox; 2x<sup>2</sup>**
+- **g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**
+  - As **x &rarr; &pm;&infin;, g(x) &thickapprox; 2x<sup>5</sup>**
+- **h(x) = -8x<sup>2</sup> - 3x<sup>5</sup> - 7x<sup>7</sup> - 9**
+  - As **x &rarr; &pm;&infin;, h(x) &thickapprox; -7x<sup>7</sup>**
+- **j(x) = 14x<sup>4</sup> - 6x<sup>2</sup> - x**
+  - As **x &rarr; &pm;&infin;, j(x) &thickapprox; 14x<sup>4</sup>**
+- **k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**
+  - As **x &rarr; &pm;&infin;, k(x) &thickapprox; -2x<sup>6</sup>**
+
+The value of the output is impacted the most by the leading term of the 
+function.
+
 # Module 11 - Quadratic and Higher-Order Polynomial Functions
 
 # Module 12 - Rational Functions
