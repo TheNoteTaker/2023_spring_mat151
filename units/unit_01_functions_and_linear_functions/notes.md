@@ -1,5 +1,46 @@
 # Unit 1 Notes
 
+<!-- TOC -->
+* [Unit 1 Notes](#unit-1-notes)
+* [Module 2 - Function Review, Function Notation, Inverse Functions](#module-2---function-review-function-notation-inverse-functions)
+  * [General Notes](#general-notes)
+  * [Functions](#functions)
+    * [Function Language](#function-language)
+    * [Example 1](#example-1)
+    * [Example 2](#example-2)
+    * [Example 3 - Oil Drum Problem](#example-3---oil-drum-problem)
+  * [Inverse Functions](#inverse-functions)
+    * [Finding The Inverse](#finding-the-inverse)
+    * [Inverse of a Graph Example](#inverse-of-a-graph-example)
+    * [Example problem](#example-problem)
+      * [Finding The Linear Function](#finding-the-linear-function)
+      * [Finding The Inverse Function](#finding-the-inverse-function)
+  * [Writing Out Functions](#writing-out-functions)
+  * [Domain and Range](#domain-and-range)
+    * [Example 1](#example-1-1)
+    * [Example 2](#example-2-1)
+    * [Example 3](#example-3)
+  * [Intercepts](#intercepts)
+    * [Vertical Intercepts](#vertical-intercepts)
+    * [Horizontal Intercepts](#horizontal-intercepts)
+  * [Constant Rate of Change](#constant-rate-of-change)
+    * [Example 1](#example-1-2)
+* [Module 3 - Constant Rate of Change and Linear Functions](#module-3---constant-rate-of-change-and-linear-functions)
+  * [General Notes](#general-notes-1)
+  * [Constant Rate of Change (Continued)](#constant-rate-of-change--continued-)
+    * [Change in Output Value](#change-in-output-value)
+    * [Change in Input Value](#change-in-input-value)
+    * [Change In Output](#change-in-output)
+  * [General Form of a Linear Function](#general-form-of-a-linear-function)
+* [Module 4 - Linear Functions, Average Rate of Change and Linear Regression](#module-4---linear-functions-average-rate-of-change-and-linear-regression)
+  * [General Notes](#general-notes-2)
+  * [Average Rate of Change](#average-rate-of-change)
+    * [Example](#example)
+    * [Polynomial Example](#polynomial-example)
+  * [Linear Regression](#linear-regression)
+    * [Coefficient of Determination](#coefficient-of-determination)
+<!-- TOC -->
+
 # Module 2 - Function Review, Function Notation, Inverse Functions
 
 The Google Slides can be
