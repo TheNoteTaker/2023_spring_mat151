@@ -1,5 +1,19 @@
 # Mat151 Web Assign Notes
 
+<!-- TOC -->
+* [Mat151 Web Assign Notes](#mat151-web-assign-notes)
+* [Section 1.1](#section-11)
+  * [Decision-Factor Equation](#decision-factor-equation)
+* [Section 1.2 - Functions and Function Notation](#section-12---functions-and-function-notation)
+  * [Functions](#functions)
+  * [Vertical Line Test](#vertical-line-test)
+  * [Function Notation](#function-notation)
+  * [Evaluating Functions and Solving Function Equations](#evaluating-functions-and-solving-function-equations)
+  * [Condensed Function Notation](#condensed-function-notation)
+  * [Evaluating and Solving a Function Equation From a Graph](#evaluating-and-solving-a-function-equation-from-a-graph)
+  * [Multivariable Functions](#multivariable-functions)
+<!-- TOC -->
+
 # Section 1.1
 
 ## Decision-Factor Equation
