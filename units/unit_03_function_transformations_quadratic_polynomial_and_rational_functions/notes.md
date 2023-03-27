@@ -3,6 +3,7 @@
 <!-- TOC -->
 * [Unit 3 - Function Transformations, Quadratic, Polynomial and Rational Functions](#unit-3---function-transformations-quadratic-polynomial-and-rational-functions)
 * [General Notes](#general-notes)
+* [Module 10 - Function Transformation & Quadratic Functions](#module-10---function-transformation--quadratic-functions)
   * [Transformations Activity](#transformations-activity)
   * [Writing a Function In Terms of a Function](#writing-a-function-in-terms-of-a-function)
     * [When setting _a = 2_:](#when-setting-a--2-)
@@ -11,10 +12,13 @@
   * [Vertex of a Function](#vertex-of-a-function)
     * [Example 1](#example-1)
     * [Example 2](#example-2)
-* [Module 10 - Function Transformation and Quadratic Functions](#module-10---function-transformation-and-quadratic-functions)
+* [Module 11 - Function Transformation and Quadratic Functions](#module-11---function-transformation-and-quadratic-functions)
   * [Quadratic Functions](#quadratic-functions)
   * [Vertex Form of a Quadratic Function](#vertex-form-of-a-quadratic-function)
   * [Different Forms of a Quadratic Function](#different-forms-of-a-quadratic-function)
+    * [Standard Form](#standard-form)
+    * [Factored Form](#factored-form)
+    * [Vertex Form](#vertex-form)
   * [Problem - Vertex Form](#problem---vertex-form)
   * [Problem - Factored Form](#problem---factored-form)
   * [Problem - Standard Form](#problem---standard-form)
@@ -41,12 +45,13 @@
     * [Example 1](#example-1-1)
     * [Example 2](#example-2-1)
   * [Computing and Graphing a Cubic Function](#computing-and-graphing-a-cubic-function)
-* [Module 11 - Quadratic and Higher-Order Polynomial Functions](#module-11---quadratic-and-higher-order-polynomial-functions)
 * [Module 12 - Rational Functions](#module-12---rational-functions)
 * [Module 13 - Power Functions](#module-13---power-functions)
 <!-- TOC -->
 
 # General Notes
+
+# Module 10 - Function Transformation & Quadratic Functions
 
 ## Transformations Activity
 
@@ -179,9 +184,11 @@ The vertex is the point where the maximum or minimum occurs of the function.
 - Vertical shift down **1**
 - Vertex: **(-2, -1)**
 
-# Module 10 - Function Transformation and Quadratic Functions
+# Module 11 - Function Transformation and Quadratic Functions
 
-- [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
+> - **Google Slides:** [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
+> 
+> <a href="https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000"><img src="assets/module_11_preview.png" width="300px" height="200px" alt="Google Slides for Module 11"></a>
 
 ## Quadratic Functions
 
@@ -220,12 +227,20 @@ There are two types of parabolas:
 
 ## Different Forms of a Quadratic Function
 
-- **Standard Form: y = ax<sup>2</sup> + bx + c**
-- **Factored Form: y = a(x - x<sub>1</sub>)(x - x<sub>2</sub>)**
-- **Vertex Form: y = a(x - h)<sup>2</sup> + k**
-
 * In some forms, the **vertex** of a function is easier to determine.
 * In other forms, vertical/horizontal intercept are easier to determine.
+
+### Standard Form
+
+> **y = ax<sup>2</sup> + bx + c**
+
+### Factored Form
+
+> **y = a(x - x<sub>1</sub>)(x - x<sub>2</sub>)**
+
+### Vertex Form
+
+> **y = a(x - h)<sup>2</sup> + k**
 
 ## Problem - Vertex Form
 
@@ -297,7 +312,8 @@ launched can be modeled by:
         2. Find the horizontal intercepts
         3. **[-0.03, 0]** and **[4.03, 0]**
     - The first intercept has no meaning _**[-0.03, 0]**_, the second intercept
-      means that the rocket will hit the ground **4.03 seconds** after launching.
+      means that the rocket will hit the ground **4.03 seconds** after
+      launching.
 3. Determine the vertex of the function and explain its meaning in the context
    of the problem.
     1. Graph the function
@@ -412,7 +428,7 @@ defined as follows:
 ## Graphs of Polynomial Functions
 
 > [Polynomial Summary PDF](assets/polynomial_summary.pdf)
-> ![](assets/polynomial_summary.png)
+> [![](assets/polynomial_summary.png)](assets/polynomial_summary.pdf)
 
 - Because polynomial functions are fairly predictable, we can summarize
   the characteristics and appearance of the graphs of polynomial functions
@@ -430,19 +446,20 @@ approaches **&pm;&infin;**.
 ### Determining End-Behavior
 
 Rather than graphing out each individual polynomial function, instead locate
-the leading term and determine the end-behavior based off it. 
+the leading term and determine the end-behavior based off it.
 
 Some general rules for the end behavior of polynomial functions:
 
 - If the degree of the polynomial is even, the end behavior will be the same,
-  going to either positive or negative infinity, based on the sign of the 
+  going to either positive or negative infinity, based on the sign of the
   leading coefficient.
 - If the degree of the polynomial is odd, the function will have opposite
-  end-behavior of the sign of the leading coefficient, going to either positive or
+  end-behavior of the sign of the leading coefficient, going to either positive
+  or
   negative infinity, based on the sign of the leading coefficient.
 
-The value of the output is impacted the most by the leading term of the 
-function. 
+The value of the output is impacted the most by the leading term of the
+function.
 
 - Because of this, **<u>you only need to graph the leading term</u>**.
 - The end-behaviors are referring to each concavity and how the end-behaviors
@@ -450,7 +467,7 @@ function.
 
 #### Function 1
 
-<img src="assets/end_behavior_graph_001.png" width="920" alt="">
+<img src="assets/end_behavior_graph_001.png" width="600" height="400" alt="">
 
 > **f(x) = 2x<sup>2</sup> + 3x - 10**<br/>
 > > As **x &rarr; &pm;&infin;, f(x) &thickapprox; 2x<sup>2</sup>**  <br/>
@@ -460,7 +477,7 @@ function.
 
 #### Function 2
 
-<img src="assets/end_behavior_graph_002.png" width="920" alt="">
+<img src="assets/end_behavior_graph_002.png" width="600" height="400" alt="">
 
 > **g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**<br/>
 > > As **x &rarr; &pm;&infin;, g(x) &thickapprox; 2x<sup>5</sup>**<br/>
@@ -471,7 +488,7 @@ function.
 
 #### Function 3
 
-<img src="assets/end_behavior_graph_003.png" width="920" alt="">
+<img src="assets/end_behavior_graph_003.png" width="600" height="400" alt="">
 
 > **h(x) = -8x<sup>2</sup> - 3x<sup>5</sup> - 7x<sup>7</sup> - 9**<br/>
 > > As **x &rarr; &pm;&infin;, h(x) &thickapprox; -7x<sup>7</sup>**<br/>
@@ -482,7 +499,7 @@ function.
 
 #### Function 4
 
-<img src="assets/end_behavior_graph_004.png" width="920" alt="">
+<img src="assets/end_behavior_graph_004.png" width="600" height="400" alt="">
 
 > **j(x) = 14x<sup>4</sup> - 6x<sup>2</sup> - x**<br/>
 > > As **x &rarr; &pm;&infin;, j(x) &thickapprox; 14x<sup>4</sup>**<br/>
@@ -492,7 +509,7 @@ function.
 
 #### Function 5
 
-<img src="assets/end_behavior_graph_005.png" width="920" alt="">
+<img src="assets/end_behavior_graph_005.png" width="600" height="400" alt="">
 
 > **k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**<br/>
 > > As **x &rarr; &pm;&infin;, k(x) &thickapprox; -2x<sup>6</sup>**<br/>
@@ -502,9 +519,9 @@ function.
 
 ## Relative and Absolute Extrema of Polynomial Functions
 
-- The term **relative extrema** is used to refer to maxima and minima 
+- The term **relative extrema** is used to refer to maxima and minima
   simultaneously.
-- The graph of a polynomial function of degree **_n_** will have at most 
+- The graph of a polynomial function of degree **_n_** will have at most
   **_n - 1_** relative extrema but it may have fewer.
 - An **odd** function will **never** have an absolute max or min
 - An **even** function will **always** have an absolute max or min
@@ -513,7 +530,7 @@ function.
 
 - A **relative maximum** occurs at the point where a graph changes from
   increasing to decreasing.
-- A **relative minimum** occurs at the point where a graph changes from 
+- A **relative minimum** occurs at the point where a graph changes from
   decreasing to increasing.
 
 ### Absolute Extrema of Polynomial Functions
@@ -538,7 +555,8 @@ function.
 
 ![](assets/fully_detailed_graph_002.png)
 
-- This could be a 4<sup>th</sup> degree polynomial because the function has the same end
+- This could be a 4<sup>th</sup> degree polynomial because the function has the
+  same end
   behavior (so the degree must be even), there are 3 concavities, 2 inflection
   points, and 3 relative extrema (one absolute)
 
@@ -546,13 +564,13 @@ function.
 
 Use the following formula to graph a cubic function:
 
-> **y<sub>1</sub> ~ ax<sub>1</sub><sup>3</sup> + bx<sub>1</sub><sup>2</sup> + cx<sub>1</sub> + d**
+> **y<sub>1</sub> ~ ax<sub>1</sub><sup>3</sup> + bx<sub>1</sub><sup>2</sup> +
+cx<sub>1</sub> + d**
 
 ![](assets/cubic_function_regression.png)
 
 
-# Module 11 - Quadratic and Higher-Order Polynomial Functions
-
 # Module 12 - Rational Functions
 
 # Module 13 - Power Functions
+
