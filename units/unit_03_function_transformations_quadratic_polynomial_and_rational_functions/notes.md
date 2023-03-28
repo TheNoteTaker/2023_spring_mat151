@@ -13,6 +13,7 @@
     * [Vertex Example 1](#vertex-example-1)
     * [Vertex Example 2](#vertex-example-2)
 * [Module 11 - Function Transformation and Quadratic Functions](#module-11---function-transformation-and-quadratic-functions)
+  * [Google Slides](#google-slides)
   * [Quadratic Functions](#quadratic-functions)
   * [Vertex Form of a Quadratic Function](#vertex-form-of-a-quadratic-function)
   * [Different Forms of a Quadratic Function](#different-forms-of-a-quadratic-function)
