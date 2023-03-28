@@ -192,8 +192,10 @@ The vertex is the point where the maximum or minimum occurs of the function.
 
 # Module 11 - Function Transformation and Quadratic Functions
 
-> - **Google Slides:
-    ** [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
+
+## Google Slides
+
+> - **Google Slides:** [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000"><img src="assets/module_11_preview.png" width="300px" height="200px" alt="Google Slides for Module 11"></a>
 
