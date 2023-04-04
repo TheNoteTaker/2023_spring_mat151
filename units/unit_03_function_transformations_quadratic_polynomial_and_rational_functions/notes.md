@@ -12,7 +12,7 @@
   * [Vertex of a Function](#vertex-of-a-function)
     * [Vertex Example 1](#vertex-example-1)
     * [Vertex Example 2](#vertex-example-2)
-* [Module 11 - Function Transformation and Quadratic Functions](#module-11---function-transformation-and-quadratic-functions)
+* [Module 11 - Quadratic & Higher-Order Polynomial Functions](#module-11---quadratic--higher-order-polynomial-functions)
   * [Google Slides](#google-slides)
   * [Quadratic Functions](#quadratic-functions)
   * [Vertex Form of a Quadratic Function](#vertex-form-of-a-quadratic-function)
@@ -210,7 +210,7 @@ The vertex is the point where the maximum or minimum occurs of the function.
 - Vertical shift down **1**
 - Vertex: **(-2, -1)**
 
-# Module 11 - Function Transformation and Quadratic Functions
+# Module 11 - Quadratic & Higher-Order Polynomial Functions
 
 ## Google Slides
 
