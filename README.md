@@ -4,7 +4,7 @@
 
 - **Unit 1:** [Functions and Linear Functions](units/unit_01_functions_and_linear_functions/notes.md)
   - **Module 2:** [Function Review, Function Notation, Inverse Functions](units/unit_01_functions_and_linear_functions/notes.md#module-2---function-review-function-notation-inverse-functions)
-  - **Module 3:** [COnstant Rate of Change and Linear Functions](units/unit_01_functions_and_linear_functions/notes.md#module-3---constant-rate-of-change-and-linear-functions)
+  - **Module 3:** [Constant Rate of Change and Linear Functions](units/unit_01_functions_and_linear_functions/notes.md#module-3---constant-rate-of-change-and-linear-functions)
   - **Module 4:** [Linear Functions, Average Rate of Change, and Linear Regression](units/unit_01_functions_and_linear_functions/notes.md#module-4---linear-functions-average-rate-of-change-and-linear-regression)
 - **Unit 2:** [Exponential, Log, and Logistic Functions](units/unit_02_exponential_log_and_logistic_functions/notes.md)
   - **Module 6:** [Exponential Functions](units/unit_02_exponential_log_and_logistic_functions/notes.md#module-6---exponential-functions)
