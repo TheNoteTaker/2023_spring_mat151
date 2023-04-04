@@ -53,6 +53,25 @@
     * [Example 2](#example-2)
   * [Computing and Graphing a Cubic Function](#computing-and-graphing-a-cubic-function)
 * [Module 12 - Rational Functions](#module-12---rational-functions)
+  * [Rational Functions](#rational-functions)
+  * [Vertical Asymptotes](#vertical-asymptotes)
+    * [Vertical Asymptote Graph Example](#vertical-asymptote-graph-example)
+  * [Horizontal Asymptotes](#horizontal-asymptotes)
+  * [Finding The Vertical and Horizontal Asymptote](#finding-the-vertical-and-horizontal-asymptote)
+    * [Finding The Asymptotes Example 1](#finding-the-asymptotes-example-1)
+    * [Finding The Asymptotes Example 2](#finding-the-asymptotes-example-2)
+    * [Finding The Asymptotes Example 3](#finding-the-asymptotes-example-3)
+    * [Finding The Asymptotes Example 4](#finding-the-asymptotes-example-4)
+    * [Finding The Asymptotes Example 5](#finding-the-asymptotes-example-5)
+    * [Finding The Asymptotes Example 6](#finding-the-asymptotes-example-6)
+    * [Finding The Asymptotes Example 7](#finding-the-asymptotes-example-7)
+    * [Finding The Asymptotes Example 8](#finding-the-asymptotes-example-8)
+  * [Finding Horizontal Asymptotes With Leading Terms](#finding-horizontal-asymptotes-with-leading-terms)
+    * [Horizontal Asymptote - Leading Term Example 1](#horizontal-asymptote---leading-term-example-1)
+    * [Horizontal Asymptote - Leading Term Example 2](#horizontal-asymptote---leading-term-example-2)
+    * [Horizontal Asymptote - Leading Term Example 3](#horizontal-asymptote---leading-term-example-3)
+    * [Horizontal Asymptote - Leading Term Example 4](#horizontal-asymptote---leading-term-example-4)
+    * [Horizontal Asymptote - Leading Term Example 5](#horizontal-asymptote---leading-term-example-5)
 * [Module 13 - Power Functions](#module-13---power-functions)
 <!-- TOC -->
 
@@ -73,8 +92,8 @@ Functions can be transformed in various ways:
 
 Two defined functions:
 
-1. **f(x) = x<sup>2</sup>**
-2. **g(x) = af(x - c) + d)**
+1. **&fnof;(x) = x<sup>2</sup>**
+2. **_g_(x) = a&fnof;(x - c) + d**
 
 ![](assets/transformation_activity_001.png)
 
@@ -99,73 +118,73 @@ Two defined functions:
 
 ### When setting _a = 2_:
 
-|  x  | f(x) | g(x) |
-|:---:|:----:|:----:|
-| -5  |  25  |  50  |
-| -4  |  16  |  32  |
-| -3  |  9   |  18  |
-| -2  |  4   |  8   |
-| -1  |  1   |  2   |
-|  0  |  0   |  0   |
-|  1  |  1   |  2   |
-|  2  |  4   |  8   |
-|  3  |  9   |  18  |
-|  4  |  16  |  32  |
-|  5  |  25  |  50  |
+|  x  | &fnof;(x) | _g_(x) |
+|:---:|:---------:|:------:|
+| -5  |    25     |   50   |
+| -4  |    16     |   32   |
+| -3  |     9     |   18   |
+| -2  |     4     |   8    |
+| -1  |     1     |   2    |
+|  0  |     0     |   0    |
+|  1  |     1     |   2    |
+|  2  |     4     |   8    |
+|  3  |     9     |   18   |
+|  4  |    16     |   32   |
+|  5  |    25     |   50   |
 
 - A formula for the function **g** in terms of **f**:  
-  **g(x) = 2f(x)**
-- Given that **f(x) = x<sup>2</sup>**, a formula for the function **g** in
+  **_g_(x) = 2&fnof;(x)**
+- Given that **&fnof;(x) = x<sup>2</sup>**, a formula for the function **g** in
   terms of **f**:  
-  **g(x) = 2x<sup>2</sup>**
+  **_g_(x) = 2x<sup>2</sup>**
 
 ---
 
 ### When setting _d = 2_:
 
-|  x  | f(x) | g(x) |
-|:---:|:----:|:----:|
-| -5  |  25  |  27  |
-| -4  |  16  |  18  |
-| -3  |  9   |  11  |
-| -2  |  4   |  6   |
-| -1  |  1   |  3   |
-|  0  |  0   |  2   |
-|  1  |  1   |  3   |
-|  2  |  4   |  6   |
-|  3  |  9   |  11  |
-|  4  |  16  |  18  |
-|  5  |  25  |  27  |
+|  x  | &fnof;(x) | _g_(x) |
+|:---:|:---------:|:------:|
+| -5  |    25     |   27   |
+| -4  |    16     |   18   |
+| -3  |     9     |   11   |
+| -2  |     4     |   6    |
+| -1  |     1     |   3    |
+|  0  |     0     |   2    |
+|  1  |     1     |   3    |
+|  2  |     4     |   6    |
+|  3  |     9     |   11   |
+|  4  |    16     |   18   |
+|  5  |    25     |   27   |
 
 - A formula for the function **g** in terms of **f**:  
-  **g(x) = f(x) + 2**
-- Given that **f(x) = x<sup>2</sup>**, a formula for the function **g** in
+  **_g_(x) = &fnof;(x) + 2**
+- Given that **&fnof;(x) = x<sup>2</sup>**, a formula for the function **g** in
   terms of **f**:  
-  **g(x) = x<sup>2</sup> + 2**
+  **_g_(x) = x<sup>2</sup> + 2**
 
 ---
 
 ### When setting _c = 1_:
 
-|  x  | f(x) | g(x) |
-|:---:|:----:|:----:|
-| -5  |  25  |  36  |
-| -4  |  16  |  25  |
-| -3  |  9   |  16  |
-| -2  |  4   |  9   |
-| -1  |  1   |  4   |
-|  0  |  0   |  1   |
-|  1  |  1   |  0   |
-|  2  |  4   |  1   |
-|  3  |  9   |  4   |
-|  4  |  16  |  9   |
-|  5  |  25  |  16  |
+|  x  | &fnof;(x) | _g_(x) |
+|:---:|:---------:|:------:|
+| -5  |    25     |   36   |
+| -4  |    16     |   25   |
+| -3  |     9     |   16   |
+| -2  |     4     |   9    |
+| -1  |     1     |   4    |
+|  0  |     0     |   1    |
+|  1  |     1     |   0    |
+|  2  |     4     |   1    |
+|  3  |     9     |   4    |
+|  4  |    16     |   9    |
+|  5  |    25     |   16   |
 
 - A formula for the function **g** in terms of **f**:  
-  **g(x) = f(x - 1)**
-- Given that **f(x) = x<sup>2</sup>**, a formula for the function **g** in
+  **_g_(x) = &fnof;(x - 1)**
+- Given that **&fnof;(x) = x<sup>2</sup>**, a formula for the function **g** in
   terms of **f**:  
-  **g(x) = (x - 1)<sup>2</sup>**
+  **_g_(x) = (x - 1)<sup>2</sup>**
 
 ---
 
@@ -177,7 +196,7 @@ The vertex is the point where the maximum or minimum occurs of the function.
 
 ### Vertex Example 1
 
-**g(x) = 2f(x) + 3**
+**_g_(x) = 2&fnof;(x) + 3**
 
 - Vertical stretch by a factor of **2**
 - Vertical stretch up **3**
@@ -185,7 +204,7 @@ The vertex is the point where the maximum or minimum occurs of the function.
 
 ### Vertex Example 2
 
-**h(x) = f(x + 2) - 1**
+**_h_(x) = &fnof;(x + 2) - 1**
 
 - Horizontal shift left **2**
 - Vertical shift down **1**
@@ -193,20 +212,20 @@ The vertex is the point where the maximum or minimum occurs of the function.
 
 # Module 11 - Function Transformation and Quadratic Functions
 
-
 ## Google Slides
 
-> - **Google Slides:** [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
+> - **Google Slides:
+    ** [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000"><img src="assets/module_11_preview.png" width="300px" height="200px" alt="Google Slides for Module 11"></a>
 
 ## Quadratic Functions
 
-Basic quadratic function: **f(x) = x<sup>2</sup>**
+Basic quadratic function: **&fnof;(x) = x<sup>2</sup>**
 
 - Graph is called **parabolic**
-- Shape is open _up_ if **f(x) = x<sup>2</sup>**
-- Shape is open _down_ if **f(x) = -x<sup>2</sup>**
+- Shape is open _up_ if **&fnof;(x) = x<sup>2</sup>**
+- Shape is open _down_ if **&fnof;(x) = -x<sup>2</sup>**
 - Both ends point in the same direction
 - The graph will have a maximum or a minimum
     - This occurs at the vertex
@@ -224,7 +243,7 @@ There are two types of parabolas:
 
 ## Vertex Form of a Quadratic Function
 
-**y = a(x - h)<sup>2</sup> + k**
+**y = _a_(x - h)<sup>2</sup> + k**
 
 - The function above with **a != 0** is in **vertex form**.
 - The point _(h, k)_ is called the **vertex** of the parabola.
@@ -255,14 +274,14 @@ There are two types of parabolas:
 
 ### Vertex Form
 
-> **y = a(x - h)<sup>2</sup> + k**
+> **y = _a_(x - h)<sup>2</sup> + k**
 
 - In this form, **(h, k)** will always be the **vertex** of the function and
-  either the **minimum** or the **maximum** depending on if the graph is 
+  either the **minimum** or the **maximum** depending on if the graph is
   **concave up** or **concave down**.
-  - The concavity can be determined by the sign of **a**. 
-    - **-x** is concave down
-    - **x** is concave up
+    - The concavity can be determined by the sign of **a**.
+        - **-x** is concave down
+        - **x** is concave up
 
 ## Problems In Different Forms
 
@@ -273,7 +292,7 @@ in the US is finally starting to decline after seeing many years of increase.
 
 The function that models the number of cases with respect to the number of years
 since 2004 is:  
-**N(x) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
+**_N_(x) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
 
 ![](assets/vertex_form_graph_001.png)
 
@@ -287,16 +306,16 @@ since 2004 is:
 2. Identify and explain the vertical intercept of the function.
     - **Option 1**
         1. Graph the function
-        2. Create another entry using **0** as **f(x)**: **f(0)**
+        2. Create another entry using **0** as **&fnof;(x)**: **&fnof;(0)**
     - **Option 2**
         1. Substitute **0** into the equation, because it turns into:
-           **f(0) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
-        2. **f(0) = -692.614(0 - 6.829)<sup>2</sup> + 41099.728**
-        3. **f(0) = -692.614(6.829)<sup>2</sup> + 41099.728**
-        4. **f(0) = -692.614(46.635) + 41099.728**
-        5. **f(0) = -32300.221 + 41099.728**
-        6. **f(0) = 8799.507**
-        7. **f(0) = 8799.51** _&larr; Rounded Up_
+           **&fnof;(0) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
+        2. **&fnof;(0) = -692.614(0 - 6.829)<sup>2</sup> + 41099.728**
+        3. **&fnof;(0) = -692.614(6.829)<sup>2</sup> + 41099.728**
+        4. **&fnof;(0) = -692.614(46.635) + 41099.728**
+        5. **&fnof;(0) = -32300.221 + 41099.728**
+        6. **&fnof;(0) = 8799.507**
+        7. **&fnof;(0) = 8799.51** _&larr; Rounded Up_
 3. Determine when the model would predict AIDS cases is zero.
     1. Graph the function
     2. Find the horizontal intercepts
@@ -314,7 +333,7 @@ since 2004 is:
 A water rocket can be purchased at many toy stores. One company claims that
 the height above the ground (in feet) for their rocket _t_ seconds after it is
 launched can be modeled by:
-> **s(t) = -16(t + 0.03)(t - 4.03)**
+> **_s_(t) = -16(t + 0.03)(t - 4.03)**
 
 ![](assets/factored_form_graph_001.png)
 
@@ -327,7 +346,7 @@ launched can be modeled by:
        feet above the ground.
 2. Determine the horizontal intercepts of the function and explain their
    meaning (if any) in the context of the problem.
-    - **Option 1:** **s(t)** will equal 0 when any of the factors equal 0, so
+    - **Option 1:** **_s_(t)** will equal 0 when any of the factors equal 0, so
       when **t + 0.03 = 0** or **t - 4.03 = 0**:
         1. Get the intercepts from the formula.
         2. **+0.03** **&rarr;** **-0.03** and **4.03**
@@ -349,14 +368,14 @@ launched can be modeled by:
            point
            of 65.934 feet in the air.
         5. Due to symmetry, the vertex will occur halfway between the two zeros:
-            1. **<sup>4.03-0.03</sup>/<sub>2</sub> = 2**
-            2. **s(2) = 65.934** is the vertex.
+            1. **<sup>4.03-0.03</sup>&frasl;<sub>2</sub> = 2**
+            2. **_s_(2) = 65.934** is the vertex.
     - **Option 2**
         1. Due to symmetry, the vertex will occur halfway between the 2 zeros
            and
            can be found by:<br/>
-           **<sup>4.03 + (-0.03)</sup>/<sub>2</sub> = 2**
-        2. **s(2) = 65.934** _&larr; After plugging **2** into the formula_
+           **<sup>4.03 + (-0.03)</sup>&frasl;<sub>2</sub> = 2**
+        2. **_s_(2) = 65.934** _&larr; After plugging **2** into the formula_
         3. **[2, 65.934]** is the vertex
 
 The horizontal intercepts (**[0.03, 0]** and **[4.03, 0]**) are often referred
@@ -366,11 +385,11 @@ to as the **zeros** of the function.
 
 First, convert the previous Factored form to standard form:
 
-1. **s(t) = -16(t + 0.03)(t - 4.03)**
-2. **s(t) = -16(t<sup>2</sup> - 4.03t + 0.03t - 0.1209)**
-3. **s(t) = -16t<sup>2</sup> + 64t + 1.9344**
+1. **_s_(t) = -16(t + 0.03)(t - 4.03)**
+2. **_s_(t) = -16(t<sup>2</sup> - 4.03t + 0.03t - 0.1209)**
+3. **_s_(t) = -16t<sup>2</sup> + 64t + 1.9344**
 
-<u>Getting the vertical intercept <b>s(0):</b></u>
+<u>Getting the vertical intercept <b>_s_(0):</b></u>
 
 The **c** value is always the output of the vertical intercept. In this
 case **1.9344**, so: **[0, 1.9344]**
@@ -431,41 +450,43 @@ defined as follows:
 
 #### Polynomial Example 1
 
-> **f(x) = 2x<sup>2</sup> + 3x - 10**
+> **&fnof;(x) = 2x<sup>2</sup> + 3x - 10**
 > - **2x<sup>2</sup>** is the leading term
 > - **2** is the LC (Leading Coefficient)
 > - **<sup>2</sup>** is the degree
 
 #### Polynomial Example 2
 
-> **g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**
-> 
+> **_g_(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**
+>
 > - **2x<sup>5</sup>** is the leading term
 > - **2** is the LC
 > - **<sup>5</sup>** is the degree
 
 #### Polynomial Example 3
-> **h(x) = -8x<sup>2</sup> + 3x<sup>5</sup> - 7x<sup>7</sup> - 9**
-> 
+
+> **_h_(x) = -8x<sup>2</sup> + 3x<sup>5</sup> - 7x<sup>7</sup> - 9**
+>
 > - **-7x<sup>7</sup>** is the leading term
 > - **-7** is the LC
 > - **<sup>7</sup>** is the degree
 
 #### Polynomial Example 4
 
-> **j(x) = 14x<sup>2</sup> - 6x<sup>2</sup> - x**
-> 
+> **_j_(x) = 14x<sup>2</sup> - 6x<sup>2</sup> - x**
+>
 > - **14x<sup>2</sup>** is the leading term
 > - **14** is the LC
 > - **<sup>2</sup>** is the degree
 
 #### Polynomial Example 5
 
-> **k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**
-> 
+> **_k_(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**
+>
 > - **-2x<sup>6</sup>** is the leading term
 > - **-2** is the LC
 > - **<sup>6</sup>** is the degree
+
 ## Graphs of Polynomial Functions
 
 > ### Polynomial Summary
@@ -485,13 +506,13 @@ defined as follows:
 
 ## End Behavior of Polynomial Functions
 
-For any polynomial function, as **x** approaches **&pm;&infin;**, **f(x)**
+For any polynomial function, as **x** approaches **&pm;&infin;**, **&fnof;(x)**
 approaches **&pm;&infin;**.
 
 - As the magnitude (absolute value) of x gets larger and larger, the magnitude
   of the function values will also get larger and larger.
-- Symbolically, we write: 
-  > **as x &rarr; &pm;&infin;, f(x) &rarr; &pm;&infin;**
+- Symbolically, we write:
+  > **as x &rarr; &pm;&infin;, &fnof;(x) &rarr; &pm;&infin;**
 
 ### Determining End-Behavior
 
@@ -519,10 +540,10 @@ function.
 
 <img src="assets/end_behavior_graph_001.png" width="600" height="400" alt="">
 
-> **f(x) = 2x<sup>2</sup> + 3x - 10**<br/>
-> > As **x &rarr; &pm;&infin;, f(x) &thickapprox; 2x<sup>2</sup>**  <br/>
-> > As **x &rarr; &pm;&infin;, f(x) &rarr; &infin;**
-> 
+> **&fnof;(x) = 2x<sup>2</sup> + 3x - 10**<br/>
+> > As **x &rarr; &pm;&infin;, &fnof;(x) &thickapprox; 2x<sup>2</sup>**  <br/>
+> > As **x &rarr; &pm;&infin;, &fnof;(x) &rarr; &infin;**
+>
 > - Only **2x<sup>2</sup>** was graphed because it is the leading term.
 
 ---
@@ -531,11 +552,11 @@ function.
 
 <img src="assets/end_behavior_graph_002.png" width="600" height="400" alt="">
 
-> **g(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**<br/>
-> > As **x &rarr; &pm;&infin;, g(x) &thickapprox; 2x<sup>5</sup>**<br/>
-> > As **x &rarr; +&infin;, g(x) &rarr; &infin;**<br/>
-> > As **x &rarr; &ndash;&infin;, g(x) &rarr; &ndash;&infin;**
-> 
+> **_g_(x) = 2x<sup>5</sup> + 4x<sup>4</sup> - 13x<sup>2</sup> + 8**<br/>
+> > As **x &rarr; &pm;&infin;, _g_(x) &thickapprox; 2x<sup>5</sup>**<br/>
+> > As **x &rarr; +&infin;, _g_(x) &rarr; &infin;**<br/>
+> > As **x &rarr; &ndash;&infin;, _g_(x) &rarr; &ndash;&infin;**
+>
 > - Only **2x<sup>5</sup>** was graphed because it is the leading term.
 
 ---
@@ -544,11 +565,11 @@ function.
 
 <img src="assets/end_behavior_graph_003.png" width="600" height="400" alt="">
 
-> **h(x) = -8x<sup>2</sup> - 3x<sup>5</sup> - 7x<sup>7</sup> - 9**<br/>
-> > As **x &rarr; &pm;&infin;, h(x) &thickapprox; -7x<sup>7</sup>**<br/>
-> > As **x &rarr; +&infin;, g(x) &rarr; &ndash;&infin;**<br/>
-> > As **x &rarr; &ndash;&infin;, g(x) &rarr; &infin;**
-> 
+> **_h_(x) = -8x<sup>2</sup> - 3x<sup>5</sup> - 7x<sup>7</sup> - 9**<br/>
+> > As **x &rarr; &pm;&infin;, _h_(x) &thickapprox; -7x<sup>7</sup>**<br/>
+> > As **x &rarr; +&infin;, _g_(x) &rarr; &ndash;&infin;**<br/>
+> > As **x &rarr; &ndash;&infin;, _g_(x) &rarr; &infin;**
+>
 > - Only **7x<sup>7</sup>** was graphed because it is the leading term.
 
 ---
@@ -557,10 +578,10 @@ function.
 
 <img src="assets/end_behavior_graph_004.png" width="600" height="400" alt="">
 
-> **j(x) = 14x<sup>4</sup> - 6x<sup>2</sup> - x**<br/>
-> > As **x &rarr; &pm;&infin;, j(x) &thickapprox; 14x<sup>4</sup>**<br/>
-> > As **x &rarr; &pm;&infin;, j(x) &rarr; &infin;**
-> 
+> **_j_(x) = 14x<sup>4</sup> - 6x<sup>2</sup> - x**<br/>
+> > As **x &rarr; &pm;&infin;, _j_(x) &thickapprox; 14x<sup>4</sup>**<br/>
+> > As **x &rarr; &pm;&infin;, _j_(x) &rarr; &infin;**
+>
 > - Only **14x<sup>4</sup>** was graphed because it is the leading term.
 
 ---
@@ -569,10 +590,10 @@ function.
 
 <img src="assets/end_behavior_graph_005.png" width="600" height="400" alt="">
 
-> **k(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**<br/>
-> > As **x &rarr; &pm;&infin;, k(x) &thickapprox; -2x<sup>6</sup>**<br/>
-> > As **x &rarr; &pm;&infin;, k(x) &rarr; &ndash;&infin;**
-> 
+> **_k_(x) = 2 + 6x + 18x<sup>2</sup> - 2x<sup>6</sup>**<br/>
+> > As **x &rarr; &pm;&infin;, _k_(x) &thickapprox; -2x<sup>6</sup>**<br/>
+> > As **x &rarr; &pm;&infin;, _k_(x) &rarr; &ndash;&infin;**
+>
 > - Only **2x<sup>6</sup>** was graphed because it is the leading term.
 
 ---
@@ -630,6 +651,318 @@ cx<sub>1</sub> + d**
 ![](assets/cubic_function_regression.png)
 
 # Module 12 - Rational Functions
+
+> **Google Slides:**
+> [Slides Link](https://docs.google.com/presentation/d/e/2PACX-1vRMj9UrPfn6En-_jS6dwCoRrjm2UTgMe6OVmPbRV5Ets9ZBh9v3auntjX-Rzp1vhd2bAZRTAtCoDdQj/embed?start=false&loop=false&delayms=3000)
+>
+> <a href="https://docs.google.com/presentation/d/e/2PACX-1vRMj9UrPfn6En-_jS6dwCoRrjm2UTgMe6OVmPbRV5Ets9ZBh9v3auntjX-Rzp1vhd2bAZRTAtCoDdQj/embed?start=false&loop=false&delayms=3000"><img alt="Module 12 - Rational Functions" height="325" src="assets/module_12_preview.png" width="500"/></a>
+
+## Rational Functions
+
+When one polynomial function is divided by another, a **rational function** is
+created:
+
+> **&fnof;(x) = <sup>_p_(x)</sup>&frasl;<sub>_q_(x)</sub>**
+
+- Where **_p_(x)** and **_q_(x)** are polynomial functions with
+  **_q_(x) &ne; 0**
+
+The most basic form of a Rational Function:
+
+> **&fnof;(x) = <sup>1</sup>&frasl;<sub>x</sub>**
+>
+> ![](assets/rational_function_001.png)
+
+- At **x = 0**, **&fnof;(x)** is undefined.
+- As **x &rarr; 0**, the outputs will get larger and larger in both the positive
+  negative directions.
+    - Since **&fnof;(x) = <sup>1</sup>&frasl;<sub>x</sub>**, as **x** gets
+      smaller
+      and smaller, **<sup>1</sup>&frasl;<sub>x</sub>** gets larger and larger.
+- There is a **vertical asymptote** at **_x_ = 0**
+
+## Vertical Asymptotes
+
+A **vertical asymptote** of a function **&fnof;(x)** is a vertical line, **x =
+a**, that the graph of **&fnof;_x_(x)** approaches, but does not cross.
+
+- More formally, as **_x_** approaches **_a_**, **&fnof;(x)** approaches
+  **&pm;&infin;**
+    - Symbolically, we write this as **x &rarr; a**,
+      **&fnof;(x) &rarr; &pm;&infin;**
+- Vertical asymptotes are not part of the graph of a rational function.
+    - They are often drawn still because they are helpful in describing how the
+      function behaves.
+- Remember that a vertical asymptote is a line _(not a value)_, so you need to
+  express an asymptote using the formula for a line.
+    - _I.e. x = some number_
+
+### Vertical Asymptote Graph Example
+
+![](assets/rational_function_001.png)
+
+- As **x &rarr; &pm;&infin;, &fnof;(x) &rarr; 0**
+- Since **&fnof;(x) = <sup>1</sup>&frasl;<sub>x</sub>**, as **x** gets larger
+  and larger, **<sup>1</sup>&frasl;<sub>x</sub>** gets smaller and smaller.
+
+## Horizontal Asymptotes
+
+The **horizontal asymptote** of a rational function is a horizontal line, **y =
+b**, that the function approaches as the independent variables approaches
+**&ndash;&infin;** or **&infin;**.
+
+- A rational function can have both a **horizontal asymptote** and a **vertical
+  asymptote**.
+- To find horizontal asymptotes, you must know how the output values of the
+  function behave as the input values approach **&pm;&infin;**.
+- **Important:** The graph of a rational function never crosses a vertical
+  asymptote. However, the graphs of some rational functions do cross their
+  horizontal asymptotes.
+
+## Finding The Vertical and Horizontal Asymptote
+
+- In general, a **vertical asymptote** occurs at values of **_x_** that make the
+  denominator equal to zero.
+    - You can determine the asymptotes using the function by setting the
+      denominator equal to zero and solving for the input variable.
+- In general, a **horizontal asymptote** can be determined by looking at the
+  end behavior of the function.
+    - If the value of the output approaches a specific value **_b_** as
+      **x &rarr; &infin;** or **x &rarr; &ndash;&infin;**, then the function has
+      a horizontal asymptote at **y = b**.
+    - **Not all rational functions will have a horizontal asymptote.**
+
+---
+
+### Finding The Asymptotes Example 1
+
+Given the function:
+
+> **_g_(x) = <sup>3</sup>&frasl;<sub>x - 2</sub>**
+
+- The _vertical asymptote_ is **x = 2**, because as **x &rarr; 2**, **_g_(x)
+  &rarr; &pm;&infin;** and because **x = 2** is not in the domain (the
+  denominator cannot equal **0**, and **2 - 2 = 0**).
+- The _Horizontal asymptote_ is **y = 0** because as **x &rarr; &infin;**,
+  **_g_(x) &rarr; 0**
+- Using transformations:
+    - The function **_g_** has been stretched vertically by a factor of **3**
+      and shifted right **2**, compared to
+      **&fnof;(x) = <sup>1</sup>&frasl;<sub>x</sub>**
+    - The vertical stretch does not impact either asymptote, but the horizontal
+      shift will move the vertical asymptote right **2** units (from **x = 0**)
+      to **x = 2**.
+
+---
+
+### Finding The Asymptotes Example 2
+
+Given the function, which gives the average cost (in dollars per gram) of
+producing **g** grams of a new drug:
+
+> **_C_(g) = <sup>800,000,000 + 10<em>g</em></sup>&frasl;_g_**
+
+![](assets/rational_function_002.png)
+
+* The **vertical asymptote** is **g = 0**, because if **g = 0**, **_C_(g)** is
+  undefined.
+* The **horizontal asymptote** is **_C_(g) = 10**
+    * As we look at end behavior, we see that the output will get closer and
+      closer to 10.
+
+---
+
+### Finding The Asymptotes Example 3
+
+> _Context:_ A national park research team noticed a dramatic reduction in the
+> deer population ina 150,000-acre protected area. In order to increase the
+> population of deer, the park services introudced 125 additional deer into the
+> area. The researchers' population model predicts that after this, the
+> expected number of deer **N** with respect to time **_t_** in years since
+> 1990 will be described by the function below.
+
+Given the function:
+
+> **N = &fnof;(t) = <sup>50(2t + 16)</sup>&frasl;<sub>0.02t + 4</sub>**
+
+![](assets/rational_function_003.png)
+
+- **Vertical Intercept: \[0, 200]**
+    1. Replace the input with **0**
+    2. **&fnof;(0) = <sup>50(2(0) + 16)</sup>&frasl;<sub>0.02(0) + 4</sub>**
+    3. Solve
+    4. **Vertical Intercept = \[0, 200]**
+    5. **Meaning:** In 1990, there were 200 deer.
+- **Horizontal Intercept: \[-8, 0]**
+    1. **0 = <sup>50(2t + 16)</sup>&frasl;<sub>0.02t + 4</sub>**
+    2. Multiply both sides by the denominator
+    3. **0 = 50(2t + 16)****
+    4. Solve
+    5. **Horizontal Intercept = \[0, 8]**
+    6. **Meaning:** There is no meaning.
+- **Vertical Asymptote: x = 5000**
+    1. Set the denominator equal to **0**.
+    2. **0 = 0.02t + 4**
+    3. Solve
+    4. **t = -200**
+    5. **Meaning:** There is no meaning.
+- **Horizontal Asymptote: y = -16**
+    1. Use a table in [Desmos](https://www.desmos.com/) to determine.
+    2. As **t &rarr; &pm;&infin;**, **N &rarr; 5000**
+    3. **N = 5000**
+    4. **Meaning:** As time increases, the number of deer will approach 5000.
+
+---
+
+### Finding The Asymptotes Example 4
+
+Given the function:
+
+> **&fnof;(x) = <sup>10</sup>&frasl;<sub>x + 8</sub>**
+>
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_004.png" width="1280"/>
+
+- **Vertical Asymptote: x = -8**
+- **Horizontal Asymptote: y = 10**
+
+---
+
+### Finding The Asymptotes Example 5
+
+Given the function:
+
+> **_g_(x) = <sup>5x</sup>&frasl;<sub>5x + 4</sub>**
+>
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_005.png" width="1280"/>
+
+- **Vertical Asymptote: x = -<sup>4</sup>&frasl;<sub>5</sub>**
+- **Horizontal Asymptote: y = 1**
+
+---
+
+### Finding The Asymptotes Example 6
+
+Given the function:
+
+> **_h_(x) = <sup>-2x + 5</sup>&frasl;<sub>4x<sup>2</sup> + 16</sub>**
+>
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_006.png" width="1280"/>
+
+- **Vertical Asymptote: None**
+    - There is no square root of **-16**.
+- **Horizontal Asymptote: y = -5**
+
+---
+
+### Finding The Asymptotes Example 7
+
+Given the function:
+
+> **_j_(x) = <sup>3(x - 2)(x + 4)</sup>&frasl;<sub>(x - 7)(x + 3)</sub>**
+>
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_007.png" width="1280"/>
+
+- **Vertical Asymptote: x = 7** & **x = -3**
+- **Horizontal Asymptote: y = 3**
+
+---
+
+### Finding The Asymptotes Example 8
+
+Given the function:
+
+> **_k_(x) = <sup>x<sup>3</sup> - 2x + 20</sup>&frasl;<sub>x - 6</sub>**
+>
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_008.png" width="1280"/>
+
+- **Vertical Asymptote: x = 6**
+- **Horizontal Asymptote: None**
+    - The output gets bigger and bigger as input gets bigger and bigger
+
+---
+
+## Finding Horizontal Asymptotes With Leading Terms
+
+Remember that the end behavior of a **Polynomial Function** is determined by the
+leading term of the polynomial and that <u>**horizontal asymptotes are talking 
+about the end behavior**</u>.
+
+<u>Example:</u>
+
+> **_k_(x) = 8x<sup>5</sup> + 12x<sup>4</sup> - 4x<sup>8</sup> + 12**
+
+- The leading term is **-4x<sup>8</sup>**, so as **x &rarr; &pm;&infin;**,
+  **_k_(x) &rarr; -4x<sup>8</sup>**
+
+---
+
+Because a Rational Function is the ratio of 2 polynomials, end behavior of a
+Rational Function can be determined by the ratio of the leading terms.
+
+![](assets/find_horizontal_asymptote.png)
+
+---
+
+### Horizontal Asymptote - Leading Term Example 1
+
+> **&fnof;(x) = <sup>10</sup>&frasl;<sub>x + 8</sub>**
+> 
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_004.png" width="1280"/>
+
+- As **x &rarr; &pm;&infin;**, **&fnof;(x) &rarr;
+  <sup>10</sup>&frasl;<sub>x</sub> &rarr; 0**
+    - So HA is **y = 0**
+
+---
+
+### Horizontal Asymptote - Leading Term Example 2
+
+> **_g_(x) = <sup>5x</sup>&frasl;<sub>5x + 4</sub>**
+> 
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_005.png" width="1280"/>
+
+- As **x &rarr; &pm;&infin;**, **_g_(x) &rarr;
+  <sup>5x</sup>&frasl;<sub>5x</sub> &rarr; 1**
+    - So HA is **y = 1**
+
+---
+
+### Horizontal Asymptote - Leading Term Example 3
+
+> **_h_(x) = <sup>-2x + 5</sup>&frasl;<sub>4x<sup>2</sup> + 16</sub>**
+> 
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_006.png" width="1280"/>
+
+- As **x &rarr; &pm;&infin;**, **_h_(x) &rarr;
+  <sup>-2x</sup>&frasl;<sub>4x<sup>2</sup></sub> &rarr; 0**
+    - So HA is **y = 0**
+
+---
+
+### Horizontal Asymptote - Leading Term Example 4
+
+> **_j_(x) = <sup>3(x - 2)(x + 4)</sup>&frasl;<sub>(x - 7)(x + 3)</sub>**
+> 
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_007.png" width="1280"/>
+
+- As **x &rarr; &pm;&infin;**, **_j_(x) &rarr;
+  <sup>3x<sup>2</sup></sup>&frasl;<sub>x<sup>2</sup></sub> &rarr; 3**
+    - So HA is **y = 3**
+    - The leading terms were gotten by multiplying (**3 * x * x**) and
+      (**x * x**)
+
+---
+
+### Horizontal Asymptote - Leading Term Example 5
+
+> **_k_(x) = <sup>x<sup>3</sup> - 2x + 20</sup>&frasl;<sub>x - 6</sub>**
+> 
+> <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_008.png" width="1280"/>
+
+- As **x &rarr; &pm;&infin;**, **_k_(x) &rarr;
+  <sup>x<sup>3</sup></sup>&frasl;<sub>x</sub> = x<sup>2</sup>**, which is not a
+  line.
+    - So there is no HA.
 
 # Module 13 - Power Functions
 
