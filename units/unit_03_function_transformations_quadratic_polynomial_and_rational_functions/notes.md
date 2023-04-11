@@ -322,18 +322,27 @@ since 2004 is:
         1. Graph the function
         2. Create another entry using **0** as **&fnof;(x)**: **&fnof;(0)**
     - **Option 2**
-        1. Substitute **0** into the equation, because it turns into:
+        1. Substitute **0** into the equation, because it turns into:<br/>
            **&fnof;(0) = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
         2. **&fnof;(0) = -692.614(0 - 6.829)<sup>2</sup> + 41099.728**
         3. **&fnof;(0) = -692.614(6.829)<sup>2</sup> + 41099.728**
         4. **&fnof;(0) = -692.614(46.635) + 41099.728**
         5. **&fnof;(0) = -32300.221 + 41099.728**
-        6. **&fnof;(0) = 8799.507**
-        7. **&fnof;(0) = 8799.51** _&larr; Rounded Up_
-3. Determine when the model would predict AIDS cases is zero.
-    1. Graph the function
-    2. Find the horizontal intercepts
-    3. Answer: **~1 year before 2004 and ~14.5 years after 2004**
+        6. **&fnof;(0) = 8799.507** &rarr; **8799.51**
+3. Determine when the model would predict AIDS cases is zero (Horizontal intercept).
+    - **Option 1**
+      1. Graph the function
+      2. Find the horizontal intercepts
+      3. Answer: **~1 year before 2004 and ~14.5 years after 2004**
+   - **Option 2**
+     1. Set the equation equal to **0**, turning it into:<br/>
+        **0 = -692.614(x - 6.829)<sup>2</sup> + 41099.728**
+     2. **-41099.728 = -692.614(x - 6.829)<sup>2</sup>**
+     3. **<sup>-41099.728</sup>&frasl;<sub>-692.614</sub> = (x - 6.829)<sup>2</sup>**
+     4. **&radic;(<sup>-41099.728</sup>&frasl;<sub>-692.614</sub>) = x - 6.829**
+     5. **&radic;(<sup>-41099.728</sup>&frasl;<sub>-692.614</sub>) + 6.829 = x**
+     6. Solve
+     7. **x = 14.53224731** &rarr; **14.53**
 4. Determine the range of years we would expect the number of cases to be at
    least 10,000.
     1. Graph the function
@@ -781,7 +790,8 @@ producing **g** grams of a new drug:
 ![](assets/rational_function_002.png)
 
 * The **vertical asymptote** is **g = 0**, because if **g = 0**, **_C_(g)** is
-  undefined.
+  undefined. **
+
 * The **horizontal asymptote** is **_C_(g) = 10**
     * As we look at end behavior, we see that the output will get closer and
       closer to 10.
@@ -823,7 +833,7 @@ Given the function:
     4. **t = -200**
     5. **Meaning:** There is no meaning.
 - **Horizontal Asymptote: y = -16**
-    1. Use a table in [Desmos](https://www.desmos.com/) to determine.
+    1. Use a table in [Desmos](https://www.desmos.com/) to determine, _or_ use the end behavior of the function _(using the leading terms)_.
     2. As **t &rarr; &pm;&infin;**, **N &rarr; 5000**
     3. **N = 5000**
     4. **Meaning:** As time increases, the number of deer will approach 5000.
@@ -984,8 +994,8 @@ Rational Function can be determined by the ratio of the leading terms.
 
 ## Module 13 - Google Slides
 
-> **Google Slides:
-** [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT9mp_AOloBkyn6o6kV2eQUiJdyXOwgmQ7xsM3DLD_8cN9riNM1ES1cLi88_c8XiKTJvdeUsSc8h3Em/embed?start=false&loop=false&delayms=3000&slide=id.p1) | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475672/download?download_frd=1)
+> **Google Slides:**
+  [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT9mp_AOloBkyn6o6kV2eQUiJdyXOwgmQ7xsM3DLD_8cN9riNM1ES1cLi88_c8XiKTJvdeUsSc8h3Em/embed?start=false&loop=false&delayms=3000&slide=id.p1) | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475672/download?download_frd=1)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vT9mp_AOloBkyn6o6kV2eQUiJdyXOwgmQ7xsM3DLD_8cN9riNM1ES1cLi88_c8XiKTJvdeUsSc8h3Em/embed?start=false&loop=false&delayms=3000&slide=id.p1"><img src="assets/module_13_preview.png" alt="" width="500" height="400"></a>
 
@@ -1029,16 +1039,16 @@ A single term polynomial is a special case of a Power Function.
 
 ![](assets/power_function_graph_003.png)
 
-- **h(x) = ax<sup>-n</sup>**
+- **_h_(x) = ax<sup>-n</sup>**
   - **ax<sup>-n</sup>** is decreasing at an increasing rate.
   - **<sup>a</sup>&frasl;<sub>x<sup>n</sup></sub>** will approach **0** faster
     than **<sup>a</sup>&frasl;<sub>x<sup><sup>1</sup>&frasl;n</sub></sub>**.
 - **&fnof;(x) = ax<sup>n</sup>**
   - **ax<sup>n</sup>** is increasing at an increasing rate.
-- **g(x) = ax<sup><sup>1</sup>&frasl;<sub>n</sub></sup>**
+- **_g_(x) = ax<sup><sup>1</sup>&frasl;<sub>n</sub></sup>**
   - **ax<sup><sup>1</sup>&frasl;<sub>n</sub></sup>** is increasing at a
     decreasing rate.
-- **j(x) = ax<sup><sup>1</sup>&frasl;<sub>&ndash;n</sub></sup>**
+- **_j_(x) = ax<sup><sup>1</sup>&frasl;<sub>&ndash;n</sub></sup>**
   - **ax<sup><sup>1</sup>&frasl;<sub>&ndash;n</sub></sup>** is decreasing at a
     decreasing rate.
 
@@ -1068,10 +1078,10 @@ A single term polynomial is a special case of a Power Function.
     - **a = 9.30693**
     - **b = 0.120144**
 4. Use the values to get the regression model:
-   1. **V(m) ~ 9.30693m<sub>1</sub><sup>0.120144</sup>**
-   2. **V(m) ~ 9.31m<sub>1</sub><sup>0.12</sup>**
+   1. **_V_(m) ~ 9.30693m<sub>1</sub><sup>0.120144</sup>**
+   2. **_V_(m) ~ 9.31m<sub>1</sub><sup>0.12</sup>**
 5. Convert the regression model to a power function:
-   - **V(m) = 9.31m<sub>1</sub><sup>0.12</sup>**
+   - **_V_(m) = 9.31m<sub>1</sub><sup>0.12</sup>**
 6. Get the value of a specific input using **x = <value to find>** and finding
    the intersection of the line and the custom input.
 
