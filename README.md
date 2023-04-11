@@ -15,6 +15,11 @@
   - **Module 11:** [Quadratic and Higher Order Polynomial Functions](units/unit_03_function_transformations_quadratic_polynomial_and_rational_functions/notes.md#module-11---quadratic--higher-order-polynomial-functions)
   - **Module 12:** [Rational Functions](units/unit_03_function_transformations_quadratic_polynomial_and_rational_functions/notes.md#module-12---rational-functions)
   - **Module 13:** [Power Functions](units/unit_03_function_transformations_quadratic_polynomial_and_rational_functions/notes.md#module-13---power-functions)
+- **Unit 4:** [Piecewise Functions, Function Composition, and More Function Transformations](units/unit_04_piecewise_functions_function_composition_and_more_function_transformations/notes.md)
+  - **Module 14:** [Function Transformations Part 2](units/unit_04_piecewise_functions_function_composition_and_more_function_transformations/notes.md#module-14---function-transformations-part-2)
+  - **Module 15:** [Piecewise Functions](units/unit_04_piecewise_functions_function_composition_and_more_function_transformations/notes.md#module-15---piecewise-functions)
+  - **Module 16:** [Function Composition](units/unit_04_piecewise_functions_function_composition_and_more_function_transformations/notes.md#module-16---function-composition)
+  - **Module 17:** [Systems of Equations](units/unit_04_piecewise_functions_function_composition_and_more_function_transformations/notes.md#module-17---systems-of-equations)
 
 # Web Assign Notes
 

@@ -13,7 +13,7 @@
     * [Vertex Example 1](#vertex-example-1)
     * [Vertex Example 2](#vertex-example-2)
 * [Module 11 - Quadratic & Higher-Order Polynomial Functions](#module-11---quadratic--higher-order-polynomial-functions)
-  * [Google Slides](#google-slides)
+  * [Module 11 - Google Slides](#module-11---google-slides)
   * [Quadratic Functions](#quadratic-functions)
   * [Vertex Form of a Quadratic Function](#vertex-form-of-a-quadratic-function)
   * [Different Forms of a Quadratic Function](#different-forms-of-a-quadratic-function)
@@ -53,6 +53,7 @@
     * [Example 2](#example-2)
   * [Computing and Graphing a Cubic Function](#computing-and-graphing-a-cubic-function)
 * [Module 12 - Rational Functions](#module-12---rational-functions)
+  * [Module 12 - Google Slides](#module-12---google-slides)
   * [Rational Functions](#rational-functions)
   * [Vertical Asymptotes](#vertical-asymptotes)
     * [Vertical Asymptote Graph Example](#vertical-asymptote-graph-example)
@@ -73,6 +74,19 @@
     * [Horizontal Asymptote - Leading Term Example 4](#horizontal-asymptote---leading-term-example-4)
     * [Horizontal Asymptote - Leading Term Example 5](#horizontal-asymptote---leading-term-example-5)
 * [Module 13 - Power Functions](#module-13---power-functions)
+  * [Module 13 - Google Slides](#module-13---google-slides)
+  * [Power Functions](#power-functions)
+  * [Power Functions vs Polynomial Functions](#power-functions-vs-polynomial-functions)
+  * [Power Function Graphs](#power-function-graphs)
+    * [Power Function Graph - `x > 0` and `0 < b < 1`](#power-function-graph---x--0-and-0--b--1)
+    * [Power Function Graph - `x > 0` and `b < 0`](#power-function-graph---x--0-and-b--0)
+    * [Power Function Graph - Multiple Power Functions](#power-function-graph---multiple-power-functions)
+  * [Solving Power Functions](#solving-power-functions)
+    * [Solving Equations of Power Functions - Example 1](#solving-equations-of-power-functions---example-1)
+      * [Example 1 Graph](#example-1-graph)
+    * [Solving Equations of Power Functions - Example 2](#solving-equations-of-power-functions---example-2)
+    * [Solving Equations of Power Functions - Example 3](#solving-equations-of-power-functions---example-3)
+    * [Solving Equations of Power Functions - Example 4](#solving-equations-of-power-functions---example-4)
 <!-- TOC -->
 
 # General Notes
@@ -212,10 +226,10 @@ The vertex is the point where the maximum or minimum occurs of the function.
 
 # Module 11 - Quadratic & Higher-Order Polynomial Functions
 
-## Google Slides
+## Module 11 - Google Slides
 
-> - **Google Slides:
-    ** [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
+> - **Google Slides:** 
+> [Link to slides](https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vRZf0--QHmeWmMDxhLi4GE_0n-5RLGXaWfmuEAwhrSxwA0pRx8f_fumb9DhNeP-wsUpVrkG2Xer3kSz/embed?start=false&loop=false&delayms=3000"><img src="assets/module_11_preview.png" width="300px" height="200px" alt="Google Slides for Module 11"></a>
 
@@ -652,6 +666,8 @@ cx<sub>1</sub> + d**
 
 # Module 12 - Rational Functions
 
+## Module 12 - Google Slides
+
 > **Google Slides:**
 > [Slides Link](https://docs.google.com/presentation/d/e/2PACX-1vRMj9UrPfn6En-_jS6dwCoRrjm2UTgMe6OVmPbRV5Ets9ZBh9v3auntjX-Rzp1vhd2bAZRTAtCoDdQj/embed?start=false&loop=false&delayms=3000)
 >
@@ -884,7 +900,7 @@ Given the function:
 ## Finding Horizontal Asymptotes With Leading Terms
 
 Remember that the end behavior of a **Polynomial Function** is determined by the
-leading term of the polynomial and that <u>**horizontal asymptotes are talking 
+leading term of the polynomial and that <u>**horizontal asymptotes are talking
 about the end behavior**</u>.
 
 <u>Example:</u>
@@ -906,7 +922,7 @@ Rational Function can be determined by the ratio of the leading terms.
 ### Horizontal Asymptote - Leading Term Example 1
 
 > **&fnof;(x) = <sup>10</sup>&frasl;<sub>x + 8</sub>**
-> 
+>
 > <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_004.png" width="1280"/>
 
 - As **x &rarr; &pm;&infin;**, **&fnof;(x) &rarr;
@@ -918,7 +934,7 @@ Rational Function can be determined by the ratio of the leading terms.
 ### Horizontal Asymptote - Leading Term Example 2
 
 > **_g_(x) = <sup>5x</sup>&frasl;<sub>5x + 4</sub>**
-> 
+>
 > <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_005.png" width="1280"/>
 
 - As **x &rarr; &pm;&infin;**, **_g_(x) &rarr;
@@ -930,7 +946,7 @@ Rational Function can be determined by the ratio of the leading terms.
 ### Horizontal Asymptote - Leading Term Example 3
 
 > **_h_(x) = <sup>-2x + 5</sup>&frasl;<sub>4x<sup>2</sup> + 16</sub>**
-> 
+>
 > <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_006.png" width="1280"/>
 
 - As **x &rarr; &pm;&infin;**, **_h_(x) &rarr;
@@ -942,7 +958,7 @@ Rational Function can be determined by the ratio of the leading terms.
 ### Horizontal Asymptote - Leading Term Example 4
 
 > **_j_(x) = <sup>3(x - 2)(x + 4)</sup>&frasl;<sub>(x - 7)(x + 3)</sub>**
-> 
+>
 > <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_007.png" width="1280"/>
 
 - As **x &rarr; &pm;&infin;**, **_j_(x) &rarr;
@@ -956,7 +972,7 @@ Rational Function can be determined by the ratio of the leading terms.
 ### Horizontal Asymptote - Leading Term Example 5
 
 > **_k_(x) = <sup>x<sup>3</sup> - 2x + 20</sup>&frasl;<sub>x - 6</sub>**
-> 
+>
 > <img alt="Rational function example to find the asymptotes" height="500" src="assets/rational_function_008.png" width="1280"/>
 
 - As **x &rarr; &pm;&infin;**, **_k_(x) &rarr;
@@ -966,3 +982,138 @@ Rational Function can be determined by the ratio of the leading terms.
 
 # Module 13 - Power Functions
 
+## Module 13 - Google Slides
+
+> **Google Slides:
+** [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT9mp_AOloBkyn6o6kV2eQUiJdyXOwgmQ7xsM3DLD_8cN9riNM1ES1cLi88_c8XiKTJvdeUsSc8h3Em/embed?start=false&loop=false&delayms=3000&slide=id.p1) | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475672/download?download_frd=1)
+>
+> <a href="https://docs.google.com/presentation/d/e/2PACX-1vT9mp_AOloBkyn6o6kV2eQUiJdyXOwgmQ7xsM3DLD_8cN9riNM1ES1cLi88_c8XiKTJvdeUsSc8h3Em/embed?start=false&loop=false&delayms=3000&slide=id.p1"><img src="assets/module_13_preview.png" alt="" width="500" height="400"></a>
+
+## Power Functions
+
+A **Power Function** is a function that has the form:
+
+> **y = ax<sup>b</sup>**
+
+- Where _a_ and _b_ are constants, is called a **Power Function**.
+
+## Power Functions vs Polynomial Functions
+
+A single term polynomial is a special case of a Power Function.
+
+- There are two main differences between Power Functions and Polynomial
+  Functions:
+    - A _power function_ is a **single-term** function.
+    - A _polynomial function_ may have **multiple terms**.
+- In a power function the exponent, _b_, can be any **real-number value**. But
+  in a polynomial function the exponent, _n_, must be a 
+  **non-negative integer**.
+
+## Power Function Graphs
+
+### Power Function Graph - `x > 0` and `0 < b < 1`
+
+![](assets/power_function_graph_001.png)
+
+- Illustrates the behavior of several power functions **y = ax<sup>b</sup>**
+  with the characteristic that **x > 0** and **0 < b < 1**.
+
+### Power Function Graph - `x > 0` and `b < 0`
+
+![](assets/power_function_graph_002.png)
+
+- Illustrates the behavior of several power functions **y = ax<sup>b</sup>**
+  with the characteristic that **x > 0** and **b < 0**.
+
+### Power Function Graph - Multiple Power Functions
+
+![](assets/power_function_graph_003.png)
+
+- **h(x) = ax<sup>-n</sup>**
+  - **ax<sup>-n</sup>** is decreasing at an increasing rate.
+  - **<sup>a</sup>&frasl;<sub>x<sup>n</sup></sub>** will approach **0** faster
+    than **<sup>a</sup>&frasl;<sub>x<sup><sup>1</sup>&frasl;n</sub></sub>**.
+- **&fnof;(x) = ax<sup>n</sup>**
+  - **ax<sup>n</sup>** is increasing at an increasing rate.
+- **g(x) = ax<sup><sup>1</sup>&frasl;<sub>n</sub></sup>**
+  - **ax<sup><sup>1</sup>&frasl;<sub>n</sub></sup>** is increasing at a
+    decreasing rate.
+- **j(x) = ax<sup><sup>1</sup>&frasl;<sub>&ndash;n</sub></sup>**
+  - **ax<sup><sup>1</sup>&frasl;<sub>&ndash;n</sub></sup>** is decreasing at a
+    decreasing rate.
+
+## Solving Power Functions
+
+### Solving Equations of Power Functions - Example 1
+
+<u>**Migration Speed of Runners:**</u>
+
+| Animal             | Mass (kg)<br/>_m_ | Speed (km/day)<br/>_V_ |
+|:-------------------|:-----------------:|:----------------------:|
+| Grey wolf          |        40         |          14.5          |
+| Gazelle            |        55         |          15.1          |
+| Dall sheep         |        140        |          16.8          |
+| Zebra              |        270        |          18.2          |
+| Wildebeest         |        275        |          18.3          |
+| Polar bear         |        500        |          19.6          |
+| Caribou            |        600        |          20.1          |
+| American buffalo   |        900        |          21.1          |
+| African elephant   |       5500        |          26.2          |
+
+1. Plot the table data on a [Desmos](https://www.desmos.com/calculator).
+2. Use regression to get the equation of the line of best fit.
+   - The regression algorithm: 
+     **V<sub>1</sub> ~ am<sub>1</sub><sup>b</sup>**
+3. You get the values:
+    - **a = 9.30693**
+    - **b = 0.120144**
+4. Use the values to get the regression model:
+   1. **V(m) ~ 9.30693m<sub>1</sub><sup>0.120144</sup>**
+   2. **V(m) ~ 9.31m<sub>1</sub><sup>0.12</sup>**
+5. Convert the regression model to a power function:
+   - **V(m) = 9.31m<sub>1</sub><sup>0.12</sup>**
+6. Get the value of a specific input using **x = <value to find>** and finding
+   the intersection of the line and the custom input.
+
+- **_m_** is the mass of the animal in kilograms.
+- **_V_** is the speed of the animal in kilometers per day.
+
+#### Example 1 Graph
+
+<img alt="Graph example of Power Function" width="1000" height="492" src="assets/power_function_graph_example_001.png"/>
+
+### Solving Equations of Power Functions - Example 2
+
+<u>Use the following formula:</u> **(x<sup>b</sup>)<sup><sup>1</sup>&frasl;<sub>b</sub></sup> = x**
+
+<u>Equation:</u> **2x<sup><sup>3</sup>&frasl;<sub>2</sub></sup> = 10**
+
+1. **2x<sup><sup>3</sup>&frasl;<sub>2</sub></sup> = 10**
+2. **x<sup><sup>3</sup>&frasl;<sub>2</sub></sup> = 5**
+3. **(x<sup><sup>3</sup>&frasl;<sub>2</sub></sup>)<sup><sup>2</sup>&frasl;<sub>3</sub></sup> = 5<sup><sup>2</sup>&frasl;<sub>3</sub></sup>**
+4. **x = 5<sup><sup>2</sup>&frasl;<sub>3</sub></sup> &approx; 2.92**
+5. **x &approx; 2.92**
+
+### Solving Equations of Power Functions - Example 3
+
+<u>Use the following formula:</u> **(x<sup>b</sup>)<sup><sup>1</sup>&frasl;<sub>b</sub></sup> = x**
+
+<u>Equation:</u> **1.5m<sup>0.65</sup> = 25**
+
+1. **1.5m<sup>0.65</sup> = 25**
+2. **m<sup>0.65</sup> = <sup>25</sup>&frasl;<sub>1.5</sub>**
+3. **m = (<sup>25</sup>&frasl;<sub>1.5</sub>)<sup><sup>1</sup>&frasl;<sub>0.65</sub></sup> &approx; 75.81712417**
+4. **m &approx; 75.82**
+
+### Solving Equations of Power Functions - Example 4
+
+<u>Use the following formula:</u> **(x<sup>b</sup>)<sup><sup>1</sup>&frasl;<sub>b</sub></sup> = x**
+
+<u>Equation:</u> **<sup>5</sup>&frasl;<sub>w<sup>2.5</sup></sub> = 0.5**
+
+1. **<sup>5</sup>&frasl;<sub>w<sup>2.5</sup></sub> = 0.5**
+2. **5 = (0.5)(w<sup>2.5</sup>) &rarr; 5 = 0.5w<sup>2.5</sup>**
+3. **<sup>5</sup>&frasl;<sub>0.5</sub> = w<sup>2.5</sup>**
+4. **(<sup>5</sup>&frasl;<sub>0.5</sub>)<sup><sup>1</sup>&frasl;<sub>2.5</sub></sup> = w**
+5. **2.511885432 &approx; w**
+6. **w &approx; 2.51**
