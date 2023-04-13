@@ -23,7 +23,8 @@
   * [Problems In Different Forms](#problems-in-different-forms)
     * [Problem in Vertex Form](#problem-in-vertex-form)
     * [Problem in Factored Form](#problem-in-factored-form)
-    * [Problem in Standard Form](#problem-in-standard-form)
+    * [Problem in Standard Form (Converting to Standard Form)](#problem-in-standard-form--converting-to-standard-form-)
+    * [Converting to Vertex Form](#converting-to-vertex-form)
   * [Concavity](#concavity)
   * [Inflection Point](#inflection-point)
   * [Cubic Functions](#cubic-functions)
@@ -404,7 +405,7 @@ launched can be modeled by:
 The horizontal intercepts (**[0.03, 0]** and **[4.03, 0]**) are often referred
 to as the **zeros** of the function.
 
-### Problem in Standard Form
+### Problem in Standard Form (Converting to Standard Form)
 
 First, convert the previous Factored form to standard form:
 
@@ -420,6 +421,35 @@ case **1.9344**, so: **[0, 1.9344]**
 You can determine the horizontal intercept and vertex by graphing the function:
 
 ![](assets/standard_form_graph_001.png)
+
+### Converting to Vertex Form
+
+To convert back to vertex form, you need to know the vertex. You can either graph it or to solve algebraically, you can **complete the square**.
+
+1. The forms for a polynomial function:
+   - > **Standard Form:**
+     > 
+     > **&fnof;(x) = ax<sup>2</sup> + bx + c**
+   - > **Vertex Form:**
+     > 
+     > **&fnof;(x) = a(x - h)<sup>2</sup> + k**
+2. **_s_(t) = -16t<sup>2</sup> + 64t + 1.9344**
+3. Factor out the **16t** from the first two terms.
+   - When possible, you can also factor it out of the last term if it goes into
+     into it.
+4. **_s_(t) = -16(t<sup>2</sup> - 4t) 1.9344**
+5. Complete the square by adding and subtracting the square of half of the co-efficient of the **_b_** term: **(<sup>b</sup>&frasl;<sub>2</sub>)<sup>2</sup>**
+   1. **(<sup>-4</sup>&frasl;<sub>2</sub>)<sup>2</sup>**
+   2. **(-2)<sup>2</sup>**
+   3. **4**
+6. **_s_(t) = -16(t<sup>2</sup> - 4t + 4 - 4) - 1.9344**
+7. Group the first three terms and factor it as a square of a binomial
+8. **_s_(t) = -16((t<sup>2</sup> - 4t + 4) - 4) - 1.9344**
+9. **_s_(t) = -16((t - 2)<sup>2</sup> - 4) + 1.9344**
+10. Distribute and simplify
+11. **_s_(t) = -16(t - 2)<sup>2</sup> - 16(-4) + 1.9344**
+12. **_s_(t) = -16(t - 2)<sup>2</sup> + 64 + 1.9344**
+13. **_s_(t) = -16(t - 2)<sup>2</sup> + 65.9344**
 
 ## Concavity
 
