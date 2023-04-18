@@ -392,7 +392,13 @@ The final segment functions for the road trip are:
 > 2. **D = &fnof;(_t_) = 76(_t_ - 1.75) + 66.5; 1.75 &leq; _t_ &leq; 4.55**
 > 3. **D = &fnof;(_t_) = 8(_t_ - 4.55) + 279.3; 4.55 &leq; _t_ &leq; 5.05**
 
-#### Creating a Piecewise Function
+#### Final Piecewise Function
+
+The final piecewise function is:
+
+![](assets/piecewise_function_example_001.png)
+
+## How to Create a Piecewise Function
 
 ![](assets/piecewise_functions_graphic_001.png)
 
@@ -408,11 +414,7 @@ _Text Version:_
 > and a **continuous function** is one whose graph can be drawn without lifting
 > one's pencil.
 
-For the road trip problem, the piecewise function is:
-
-![](assets/piecewise_function_example_001.png)
-
-##### Example Problems
+## Example Problems
 
 1. **&fnof;(3) = 76(3 - 1.75) + 66.5** &rarr; **D = 161.5**
 2. **57 = &fnof;(_t_)**
