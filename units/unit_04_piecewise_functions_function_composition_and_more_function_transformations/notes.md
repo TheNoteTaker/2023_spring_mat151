@@ -1,56 +1,58 @@
 # Unit 4 - Piecewise Functions, Function Composition, and More Function Transformations
 
 <!-- TOC -->
+
 * [Unit 4 - Piecewise Functions, Function Composition, and More Function Transformations](#unit-4---piecewise-functions-function-composition-and-more-function-transformations)
 * [General Notes](#general-notes)
 * [Module 14 - Function Transformations Part 2](#module-14---function-transformations-part-2)
-  * [Module 14 - Google Slides](#module-14---google-slides)
-  * [Function Transformations](#function-transformations)
-  * [Identify the Transformations](#identify-the-transformations)
-    * [Identify Transformation One](#identify-transformation-one)
-      * [Transformation One Image Format](#transformation-one-image-format)
-    * [Identify Transformation Two](#identify-transformation-two)
-      * [Transformation Two Image Format](#transformation-two-image-format)
-    * [Identify Transformation Three](#identify-transformation-three)
-      * [Transformation Three Image Format](#transformation-three-image-format)
-  * [Identify Graph Transformations](#identify-graph-transformations)
-    * [Identify Graph Transformation One](#identify-graph-transformation-one)
-    * [Identify Graph Transformation Two](#identify-graph-transformation-two)
-    * [Identify Graph Transformation Three](#identify-graph-transformation-three)
-    * [Identify Graph Transformation Four](#identify-graph-transformation-four)
-  * [Horizontal Reflections](#horizontal-reflections)
-  * [Transformations Sheet](#transformations-sheet)
-    * [Transformations Sheet One](#transformations-sheet-one)
-    * [Transformations Sheet Two](#transformations-sheet-two)
+    * [Module 14 - Google Slides](#module-14---google-slides)
+    * [Function Transformations](#function-transformations)
+    * [Identify the Transformations](#identify-the-transformations)
+        * [Identify Transformation One](#identify-transformation-one)
+            * [Transformation One Image Format](#transformation-one-image-format)
+        * [Identify Transformation Two](#identify-transformation-two)
+            * [Transformation Two Image Format](#transformation-two-image-format)
+        * [Identify Transformation Three](#identify-transformation-three)
+            * [Transformation Three Image Format](#transformation-three-image-format)
+    * [Identify Graph Transformations](#identify-graph-transformations)
+        * [Identify Graph Transformation One](#identify-graph-transformation-one)
+        * [Identify Graph Transformation Two](#identify-graph-transformation-two)
+        * [Identify Graph Transformation Three](#identify-graph-transformation-three)
+        * [Identify Graph Transformation Four](#identify-graph-transformation-four)
+    * [Horizontal Reflections](#horizontal-reflections)
+    * [Transformations Sheet](#transformations-sheet)
+        * [Transformations Sheet One](#transformations-sheet-one)
+        * [Transformations Sheet Two](#transformations-sheet-two)
 * [Module 15 - Piecewise Functions](#module-15---piecewise-functions)
-  * [Module 15 - Google Slides](#module-15---google-slides)
-  * [Piecewise Function Definition](#piecewise-function-definition)
-  * [Roadtrip Problem](#roadtrip-problem)
-    * [Initial Story](#initial-story)
-    * [Roadtrip Graph](#roadtrip-graph)
-    * [Creating a Function for the Model](#creating-a-function-for-the-model)
-      * [Creating Segments Per Portion of the Road Trip](#creating-segments-per-portion-of-the-road-trip)
-      * [Creating a Piecewise Function](#creating-a-piecewise-function)
-        * [Example Problems](#example-problems)
-  * [Parking Garage Problem](#parking-garage-problem)
-  * [Parking Garage Graph](#parking-garage-graph)
-  * [Additional Piecewise Function Problems](#additional-piecewise-function-problems)
-    * [Piecewise Function Problem One](#piecewise-function-problem-one)
-    * [Piecewise Function Problem Two](#piecewise-function-problem-two)
-      * [Problem Two Finished Piecewise Function](#problem-two-finished-piecewise-function)
-    * [Piecewise Function Problem Three](#piecewise-function-problem-three)
-      * [Problem Three Finished Piecewise Function](#problem-three-finished-piecewise-function)
-    * [Piecewise Function Problem Four](#piecewise-function-problem-four)
-      * [Problem Four Finished Piecewise Function](#problem-four-finished-piecewise-function)
-      * [Problem Four Meaning](#problem-four-meaning)
-      * [Problem Four Piecewise Graph](#problem-four-piecewise-graph)
-    * [Piecewise Function Problem Five - Graphs](#piecewise-function-problem-five---graphs)
-      * [Piecewise Graph One](#piecewise-graph-one)
-        * [Piecewise Graph One Finished Function](#piecewise-graph-one-finished-function)
-      * [Piecewise Graph Two](#piecewise-graph-two)
-        * [Piecewise Graph Two Finished Function](#piecewise-graph-two-finished-function)
+    * [Module 15 - Google Slides](#module-15---google-slides)
+    * [Piecewise Function Definition](#piecewise-function-definition)
+    * [Roadtrip Problem](#roadtrip-problem)
+        * [Initial Story](#initial-story)
+        * [Roadtrip Graph](#roadtrip-graph)
+        * [Creating a Function for the Model](#creating-a-function-for-the-model)
+            * [Creating Segments Per Portion of the Road Trip](#creating-segments-per-portion-of-the-road-trip)
+            * [Creating a Piecewise Function](#creating-a-piecewise-function)
+                * [Example Problems](#example-problems)
+    * [Parking Garage Problem](#parking-garage-problem)
+    * [Parking Garage Graph](#parking-garage-graph)
+    * [Additional Piecewise Function Problems](#additional-piecewise-function-problems)
+        * [Piecewise Function Problem One](#piecewise-function-problem-one)
+        * [Piecewise Function Problem Two](#piecewise-function-problem-two)
+            * [Problem Two Finished Piecewise Function](#problem-two-finished-piecewise-function)
+        * [Piecewise Function Problem Three](#piecewise-function-problem-three)
+            * [Problem Three Finished Piecewise Function](#problem-three-finished-piecewise-function)
+        * [Piecewise Function Problem Four](#piecewise-function-problem-four)
+            * [Problem Four Finished Piecewise Function](#problem-four-finished-piecewise-function)
+            * [Problem Four Meaning](#problem-four-meaning)
+            * [Problem Four Piecewise Graph](#problem-four-piecewise-graph)
+        * [Piecewise Function Problem Five - Graphs](#piecewise-function-problem-five---graphs)
+            * [Piecewise Graph One](#piecewise-graph-one)
+                * [Piecewise Graph One Finished Function](#piecewise-graph-one-finished-function)
+            * [Piecewise Graph Two](#piecewise-graph-two)
+                * [Piecewise Graph Two Finished Function](#piecewise-graph-two-finished-function)
 * [Module 16 - Function Composition](#module-16---function-composition)
 * [Module 17 - Systems of Equations](#module-17---systems-of-equations)
+
 <!-- TOC -->
 
 # General Notes
@@ -59,8 +61,8 @@
 
 ## Module 14 - Google Slides
 
-> **Links:
-** [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSJZJ4MIfKp-NfjwdNaaEFt_IAtgMXfJ9rz80F9tNHVOFgl0yE26iduCQDu6cLBLs-eKNQ5UDnSt1Cl/embed?start=false&loop=false&delayms=3000)
+> **Links:**
+> [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSJZJ4MIfKp-NfjwdNaaEFt_IAtgMXfJ9rz80F9tNHVOFgl0yE26iduCQDu6cLBLs-eKNQ5UDnSt1Cl/embed?start=false&loop=false&delayms=3000)
 > | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475677/download)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vSJZJ4MIfKp-NfjwdNaaEFt_IAtgMXfJ9rz80F9tNHVOFgl0yE26iduCQDu6cLBLs-eKNQ5UDnSt1Cl/embed?start=false&loop=false&delayms=3000&slide=id.p1"><img alt="Google Slides" height="400" src="assets/google_slides_preview.png" width="500"/></a>
@@ -313,8 +315,8 @@ In general, think of horizontal reflections as follows:
 
 ## Module 15 - Google Slides
 
->
-Links: [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQ30ZMJ_t2tI1vMVEIlLJXwVpWTT4Lve51RYv6913y1-4sDXNSFAgQC0a4rvxM_tF8g03rKXRd6FHqZ/embed?start=false&loop=false&delayms=3000)
+> **Links:**
+> [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQ30ZMJ_t2tI1vMVEIlLJXwVpWTT4Lve51RYv6913y1-4sDXNSFAgQC0a4rvxM_tF8g03rKXRd6FHqZ/embed?start=false&loop=false&delayms=3000)
 > | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475673/download)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vQ30ZMJ_t2tI1vMVEIlLJXwVpWTT4Lve51RYv6913y1-4sDXNSFAgQC0a4rvxM_tF8g03rKXRd6FHqZ/embed?start=false&loop=false&delayms=3000"><img alt="Google Slides" height="400" src="assets/piecewise_functions_preview.png" width="500"/></a>
@@ -666,11 +668,12 @@ First we need to figure out the function that is being used per interval:
     2. Find the transformations (using only the relevant section)
         1. The graph is shifted to the left **6**
         2. The graph is shifted up **4**
-    3. Find the domain: **[-6, -2]** to **[-2, 2]**
+    3. Find the domain: **-6 &leq; _x_ &leq; -2**
     4. Final function: **&fnof;(_x_) = 1.5(_x_ + 6) + 4; -6 &leq; _x_ &leq; -2**
 2. <u>Function Two</u>
     1. The output is just **-2**
-    2. Final function: **&fnof;(_x_) = -2; -2 &lt; _x_ &leq; 2**
+    2. Find the domain: **-2 &lt; _x_ &leq; 2**
+    3. Final function: **&fnof;(_x_) = -2; -2 &lt; _x_ &leq; 2**
 3. <u>Function Three</u>
     1. Find the slope
         1. **_Point 1:_ [3, -2]** & **_Point 2:_ [5, 4.5]**
@@ -680,7 +683,7 @@ First we need to figure out the function that is being used per interval:
     2. Find the transformations (using only the relevant section)
         1. The graph is shifted to the right **3**
         2. The graph is shifted down **2**
-    3. Find the domain: **[3, -2]** to **[5, 4.5]**
+    3. Find the domain: **3 &lt; _x_ &lt; 5**
     4. Final function: **&fnof;(_x_) = 0.75(_x_ - 3) - 2; 3 &lt; _x_ &lt; 5**
 
 ##### Piecewise Graph One Finished Function
@@ -707,20 +710,20 @@ Determining the piecewise function of the graph:
 2. <u>Function Two</u>
     1. Find the slope
         1. **_Point 1:_ [-2, 1] & _Point 2:_ [2, -1]**
-       2. **<sup>-1 - 1</sup> &frasl; <sub>2 - (-2)</sub>**
-       3. **<sup>-2</sup> &frasl; <sub>4</sub>**
-       4. **-0.5**
-   2. Find the transformations (using only the relevant section)
-       1. The graph is shifted to the left **2**
-       2. The graph is shifted up **1**
-   3. Find the domain: **-2 &lt; _x_ &leq; 2**
-   4. Final function: **&fnof;(_x_) = -0.5(_x_ + 2) + 1; -2 &lt; _x_ &leq; 2**
+        2. **<sup>-1 - 1</sup> &frasl; <sub>2 - (-2)</sub>**
+        3. **<sup>-2</sup> &frasl; <sub>4</sub>**
+        4. **-0.5**
+    2. Find the transformations (using only the relevant section)
+        1. The graph is shifted to the left **2**
+        2. The graph is shifted up **1**
+    3. Find the domain: **-2 &lt; _x_ &leq; 2**
+    4. Final function: **&fnof;(_x_) = -0.5(_x_ + 2) + 1; -2 &lt; _x_ &leq; 2**
 3. <u>Function Three</u>
     1. Find the slope
         1. **_Point 1:_ [2, -1]** & **_Point 2:_ [6, -7]**
         2. **<sup>-7 - (-1)</sup> &frasl; <sub>6 - 2</sub>**
-       3. **<sup>-6</sup> &frasl; <sub>4</sub>**
-       4. **-1.5**
+        3. **<sup>-6</sup> &frasl; <sub>4</sub>**
+        4. **-1.5**
     2. Find the transformations (using only the relevant section)
         1. The graph is shifted to the right **2**
         2. The graph is shifted down **1**
