@@ -50,6 +50,10 @@
         * [Piecewise Graph One Finished Function](#piecewise-graph-one-finished-function)
       * [Piecewise Graph Two](#piecewise-graph-two)
         * [Piecewise Graph Two Finished Function](#piecewise-graph-two-finished-function)
+  * [Solving For Functions vs Graphs](#solving-for-functions-vs-graphs)
+    * [How To Solve For Functions](#how-to-solve-for-functions)
+    * [How To Solve For Graphs](#how-to-solve-for-graphs)
+      * [Example Graph](#example-graph)
 * [Module 16 - Function Composition](#module-16---function-composition)
 * [Module 17 - Systems of Equations](#module-17---systems-of-equations)
 <!-- TOC -->
@@ -734,6 +738,70 @@ Determining the piecewise function of the graph:
 ##### Piecewise Graph Two Finished Function
 
 ![](assets/piecewise_function_example_007.png)
+
+## Solving For Functions vs Graphs
+
+
+
+### How To Solve For Functions
+
+1. Determine the domain
+   - The maximum domain for the current function will serve as both the 
+     horizontal shift and the minimum domain for the next function.
+     - **Example:** If the domain is **-2 &le; _x_ &le; 2**, then the 
+       horizontal shift for the next function is **2 to the left** and the minimum domain for the next function is **-2**.
+   - This can usually be found with common sense or within the problem. Remember that it should pick up where the maximum domain of the previous function left off.
+2. Determine the range
+   - The maximum range for the current function will serve as both the 
+     vertical shift and the minimum range for the next function.
+     - **Example:** If the range is **-2 &le; _y_ &le; 2**, then the 
+       vertical shift for the next function is **2 up** and the minimum range for the next function is **2**.
+   - The range can be determined by plugging in the domain values individually into the function.
+     - If you already have the minimum range from the previous function, then you only need to plug in the maximum value for the next function's minimum.
+3. Determine the slope
+   - You can use the slope formula to find the slope between two points:
+     **<sup>y<sub>2</sub> - y<sub>1</sub></sup> &frasl; <sub>x<sub>2</sub> - x<sub>1</sub></sub>**
+4. Determine the transformations
+   - The horizontal shift is the minimum domain of the current function.
+   - The vertical shift is the minimum range of the current function.
+5. Determine the final piece of the piecewise function by separating the function and domain by a semicolon.
+   - **Example:** **&fnof;(_x_) = 2(_x_ - 2) + 2; -2 &lt; _x_ &le; 2**
+6. Repeat steps **1-5** until you have found the function for the entire graph.
+7. Create the final piecewise function:
+   - ![](assets/piecewise_function_example_008.png)
+
+### How To Solve For Graphs
+
+1. Determine the domain
+   - You can find this by identifying the beginning and end of where the slope changes on the graph.
+     - _I.e., The graph is going in a straight line, stops, and then goes in a different direction._
+   - Make sure to check whether the point is inclusive or exclusive. You will usually write each functions minimum to be exclusive besides the very first one.
+     - **Example:** **-2 &lt; _x_ &le; 2**
+2. Determine the range
+   - You can find this by identifying the beginning and end of where the slope changes on the graph.
+     - _I.e., The graph is going in a straight line, stops, and then goes in a different direction._
+3. Determine the slope
+   - You can use the slope formula to find the slope between two points:
+     **<sup>y<sub>2</sub> - y<sub>1</sub></sup> &frasl; <sub>x<sub>2</sub> - x<sub>1</sub></sub>**
+4. Determine the transformations
+   - The horizontal shift is the minimum domain of the current function.
+   - The vertical shift is the minimum range of the current function.
+   - <u>_Note:</u> You can also visually look at the graph to determine the transformations. You will look at how horizontally and vertically shifted the beginning point of the line is._
+5. Determine the final piece of the piecewise function by separating the function and domain by a semicolon.
+   - **Example:** **&fnof;(_x_) = 2(_x_ - 2) + 2; -2 &lt; _x_ &le; 2**
+6. Repeat steps **1-5** until you have found the function for the entire graph.
+7. Create the final piecewise function:
+   - ![](assets/piecewise_function_example_008.png)
+
+**Note:** You can create a piecewise function in Desmos by putting the rules/conditions after the function in bracketed parentheses and separating them with commas:
+
+> **&fnof;(_x_) = 76(x - 1.75) + 66.5 {1.75 < x &le; 4.55}**
+
+#### Example Graph
+
+- **Graph Link:** <https://www.desmos.com/calculator/jpyxmxnp48>
+
+![](assets/piecewise_graph_003.png)
 
 # Module 16 - Function Composition
 
