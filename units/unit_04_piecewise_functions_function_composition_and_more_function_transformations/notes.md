@@ -55,6 +55,22 @@
     * [How To Solve For Graphs](#how-to-solve-for-graphs)
       * [Example Graph](#example-graph)
 * [Module 16 - Function Composition](#module-16---function-composition)
+  * [Function Composition Activity](#function-composition-activity)
+  * [Function Composition Explanation](#function-composition-explanation)
+    * [Writing Function Composition Functions](#writing-function-composition-functions)
+  * [Function Composition Examples](#function-composition-examples)
+    * [Function Composition Example 1](#function-composition-example-1)
+    * [Function Composition Example 2](#function-composition-example-2)
+      * [Explaining The Meaning](#explaining-the-meaning)
+    * [Function Composition Example 3](#function-composition-example-3)
+    * [Function Composition Example 4 - Reading a Table](#function-composition-example-4---reading-a-table)
+      * [Table 1 - &fnof;(x)](#table-1---fnof--x-)
+      * [Table 2 - _g_(x)](#table-2---g--x-)
+      * [Image Version](#image-version)
+      * [Solving For Various Function Compositions](#solving-for-various-function-compositions)
+    * [Function Composition Example 5](#function-composition-example-5)
+      * [Function Composition - Problem 5 Question](#function-composition---problem-5-question)
+    * [Function Composition Example 6 - Decomposing Functions](#function-composition-example-6---decomposing-functions)
 * [Module 17 - Systems of Equations](#module-17---systems-of-equations)
 <!-- TOC -->
 
@@ -65,8 +81,7 @@
 ## Module 14 - Google Slides
 
 > **Links:**
-> [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSJZJ4MIfKp-NfjwdNaaEFt_IAtgMXfJ9rz80F9tNHVOFgl0yE26iduCQDu6cLBLs-eKNQ5UDnSt1Cl/embed?start=false&loop=false&delayms=3000)
-> | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475677/download)
+> [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSJZJ4MIfKp-NfjwdNaaEFt_IAtgMXfJ9rz80F9tNHVOFgl0yE26iduCQDu6cLBLs-eKNQ5UDnSt1Cl/embed?start=false&loop=false&delayms=3000) | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475677/download)
 >
 > <a href="https://docs.google.com/presentation/d/e/2PACX-1vSJZJ4MIfKp-NfjwdNaaEFt_IAtgMXfJ9rz80F9tNHVOFgl0yE26iduCQDu6cLBLs-eKNQ5UDnSt1Cl/embed?start=false&loop=false&delayms=3000&slide=id.p1"><img alt="Google Slides" height="400" src="assets/google_slides_preview.png" width="500"/></a>
 
@@ -741,59 +756,78 @@ Determining the piecewise function of the graph:
 
 ## Solving For Functions vs Graphs
 
-
-
 ### How To Solve For Functions
 
 1. Determine the domain
-   - The maximum domain for the current function will serve as both the 
-     horizontal shift and the minimum domain for the next function.
-     - **Example:** If the domain is **-2 &le; _x_ &le; 2**, then the 
-       horizontal shift for the next function is **2 to the left** and the minimum domain for the next function is **-2**.
-   - This can usually be found with common sense or within the problem. Remember that it should pick up where the maximum domain of the previous function left off.
+    - The maximum domain for the current function will serve as both the
+      horizontal shift and the minimum domain for the next function.
+        - **Example:** If the domain is **-2 &le; _x_ &le; 2**, then the
+          horizontal shift for the next function is **2 to the left** and the
+          minimum domain for the next function is **-2**.
+    - This can usually be found with common sense or within the problem.
+      Remember that it should pick up where the maximum domain of the previous
+      function left off.
 2. Determine the range
-   - The maximum range for the current function will serve as both the 
-     vertical shift and the minimum range for the next function.
-     - **Example:** If the range is **-2 &le; _y_ &le; 2**, then the 
-       vertical shift for the next function is **2 up** and the minimum range for the next function is **2**.
-   - The range can be determined by plugging in the domain values individually into the function.
-     - If you already have the minimum range from the previous function, then you only need to plug in the maximum value for the next function's minimum.
+    - The maximum range for the current function will serve as both the
+      vertical shift and the minimum range for the next function.
+        - **Example:** If the range is **-2 &le; _y_ &le; 2**, then the
+          vertical shift for the next function is **2 up** and the minimum range
+          for the next function is **2**.
+    - The range can be determined by plugging in the domain values individually
+      into the function.
+        - If you already have the minimum range from the previous function, then
+          you only need to plug in the maximum value for the next function's
+          minimum.
 3. Determine the slope
-   - You can use the slope formula to find the slope between two points:
-     **<sup>y<sub>2</sub> - y<sub>1</sub></sup> &frasl; <sub>x<sub>2</sub> - x<sub>1</sub></sub>**
+    - You can use the slope formula to find the slope between two points:
+      **<sup>y<sub>2</sub> - y<sub>1</sub></sup> &frasl; <sub>x<sub>2</sub> -
+      x<sub>1</sub></sub>**
 4. Determine the transformations
-   - The horizontal shift is the minimum domain of the current function.
-   - The vertical shift is the minimum range of the current function.
-5. Determine the final piece of the piecewise function by separating the function and domain by a semicolon.
-   - **Example:** **&fnof;(_x_) = 2(_x_ - 2) + 2; -2 &lt; _x_ &le; 2**
+    - The horizontal shift is the minimum domain of the current function.
+    - The vertical shift is the minimum range of the current function.
+5. Determine the final piece of the piecewise function by separating the
+   function and domain by a semicolon.
+    - **Example:** **&fnof;(_x_) = 2(_x_ - 2) + 2; -2 &lt; _x_ &le; 2**
 6. Repeat steps **1-5** until you have found the function for the entire graph.
 7. Create the final piecewise function:
-   - ![](assets/piecewise_function_example_008.png)
+    - ![](assets/piecewise_function_example_008.png)
 
 ### How To Solve For Graphs
 
 1. Determine the domain
-   - You can find this by identifying the beginning and end of where the slope changes on the graph.
-     - _I.e., The graph is going in a straight line, stops, and then goes in a different direction._
-   - Make sure to check whether the point is inclusive or exclusive. You will usually write each functions minimum to be exclusive besides the very first one.
-     - **Example:** **-2 &lt; _x_ &le; 2**
+    - You can find this by identifying the beginning and end of where the slope
+      changes on the graph.
+        - _I.e., The graph is going in a straight line, stops, and then goes in
+          a different direction._
+    - Make sure to check whether the point is inclusive or exclusive. You will
+      usually write each functions minimum to be exclusive besides the very
+      first one.
+        - **Example:** **-2 &lt; _x_ &le; 2**
 2. Determine the range
-   - You can find this by identifying the beginning and end of where the slope changes on the graph.
-     - _I.e., The graph is going in a straight line, stops, and then goes in a different direction._
+    - You can find this by identifying the beginning and end of where the slope
+      changes on the graph.
+        - _I.e., The graph is going in a straight line, stops, and then goes in
+          a different direction._
 3. Determine the slope
-   - You can use the slope formula to find the slope between two points:
-     **<sup>y<sub>2</sub> - y<sub>1</sub></sup> &frasl; <sub>x<sub>2</sub> - x<sub>1</sub></sub>**
+    - You can use the slope formula to find the slope between two points:
+      **<sup>y<sub>2</sub> - y<sub>1</sub></sup> &frasl; <sub>x<sub>2</sub> -
+      x<sub>1</sub></sub>**
 4. Determine the transformations
-   - The horizontal shift is the minimum domain of the current function.
-   - The vertical shift is the minimum range of the current function.
-   - <u>_Note:</u> You can also visually look at the graph to determine the transformations. You will look at how horizontally and vertically shifted the beginning point of the line is._
-5. Determine the final piece of the piecewise function by separating the function and domain by a semicolon.
-   - **Example:** **&fnof;(_x_) = 2(_x_ - 2) + 2; -2 &lt; _x_ &le; 2**
+    - The horizontal shift is the minimum domain of the current function.
+    - The vertical shift is the minimum range of the current function.
+    - <u>_Note:</u> You can also visually look at the graph to determine the
+      transformations. You will look at how horizontally and vertically shifted
+      the beginning point of the line is._
+5. Determine the final piece of the piecewise function by separating the
+   function and domain by a semicolon.
+    - **Example:** **&fnof;(_x_) = 2(_x_ - 2) + 2; -2 &lt; _x_ &le; 2**
 6. Repeat steps **1-5** until you have found the function for the entire graph.
 7. Create the final piecewise function:
-   - ![](assets/piecewise_function_example_008.png)
+    - ![](assets/piecewise_function_example_008.png)
 
-**Note:** You can create a piecewise function in Desmos by putting the rules/conditions after the function in bracketed parentheses and separating them with commas:
+**Note:** You can create a piecewise function in Desmos by putting the
+rules/conditions after the function in bracketed parentheses and separating them
+with commas:
 
 > **&fnof;(_x_) = 76(x - 1.75) + 66.5 {1.75 < x &le; 4.55}**
 
@@ -805,4 +839,295 @@ Determining the piecewise function of the graph:
 
 # Module 16 - Function Composition
 
+## Function Composition Activity
+
+<u>The Problem:</u>
+
+> A pebble is thrown into a lake and the radius of the ripple travels outward at
+> **2 meters per second**.
+>
+> Your goal will be to determine the area inside the ripple
+> based on the number of seconds elapsed since the pebble hit the water.
+>
+> - _Note: the formula for finding the area inside a circle is
+    > **_A_ = &pi;*r*<sup>2</sup>**_
+    >
+
+- *r* is the length of the radius of the circle.
+
+<u>Notes About The Problem:</u>
+
+1. The **radius** and **area** will increase as the time increases.
+2. To create a function for the expanding area, you will need to figure out the
+   radius at any given time.
+    1. You can do this by multiplying the **time** by the **speed**.
+    2. The new formulas:
+        1. <u>Radius:</u> **_r_ = &fnof;(_t_) = 2*t***
+            - **_t_** is the time in seconds.
+        2. <u>Area with _Time_ input:</u> **_A_ = &pi;(2*t*)<sup>2</sup>**
+        3. <u>Area with _Radius_ Input:</u> **_A_ = &pi;*r*<sup>2</sup>**
+3. Plugging in the previous function, to find the radius of the circle after
+   three seconds:
+    1. **_A_ = &pi;(_3_ &times; 2)<sup>2</sup>**
+    2. **_A_ = &pi;(6)<sup>2</sup>**
+    3. **_A_ = &pi;(36)**
+    4. **_A_ &approx; 113.097 square meters**
+
+## Function Composition Explanation
+
+**Function composition** is when you take the output of one function and use it
+as the input for another
+
+- The above problem is an example of function composition.
+    - The output of the **radius function** is used as the input for the **area
+      function**.
+
+### Writing Function Composition Functions
+
+When an input to a function is itself a function, we write the function output
+in place of the variable it defines.
+
+For example, given the following functions from the previous problem:
+
+1. **_r_ = &fnof;(_t_)**
+2. **_A_ = _g_(_r_)**
+
+The final function would be written as:
+
+> **_A_ = _g_(_r_) = _g_(&fnof;(_t_))**
+
+![](assets/function_composition_001.png)
+
+- The **_r_** in the **_g_(_r_)** function is replaced with the output of the
+  **&fnof;(_t_)** function.
+- The **_h_(_t_)** function is the same as the **_g_(_r_)** function.
+- All the functions after **_g_** in the image are the same, but the variables
+  are different.
+
+Anytime you have a two-step process to find a result, you can model that with a
+**composite function**.
+
+- <u>**NOTE:**</u> Function composition only makes sense when the output
+  quantity of one function os the input to another.
+
+## Function Composition Examples
+
+### Function Composition Example 1
+
+![](assets/function_composition_example_001.png)
+
+### Function Composition Example 2
+
+The graphs below show two different functions.
+
+1. Function **_g_** takes as its input a temperature in degrees Fahrenheit and
+   outputs the expected attendance at a neighborhood carnival.
+2. Function **_f_** takes as its input the expected attendance at a neighborhood
+   carnival and outputs the total expected revenue earned by the carnival.
+
+![](assets/function_composition_example_002.png)
+
+#### Explaining The Meaning
+
+1. Given **&fnof;(_g_(70))**
+    1. **70** is the temperate in degrees Fahrenheit.
+    2. The output of **_g_(70)** is the expected attendance at the carnival.
+        - _**&rarr; 525 expected attendance**_
+    3. The output of **&fnof;(525)** is the total expected revenue earned by the
+       carnival.
+        - _**&rarr; $1,350 total expected revenue**_
+    4. <u>**Meaning:**</u> When the temp is **70&deg;F**, the carnival is
+       expected to earn
+       **$1,350**.
+2. Given **_g_(&fnof;(70))**
+    1. **70** is the expected attendance at the carnival.
+    2. The output of **&fnof;(70)** is the total expected revenue earned by the
+       carnival.
+        - _**&rarr; $150 total expected revenue**_
+    3. The output of **&fnof;** &ne; input of **_g_**.
+    4. <u>**Meaning:**</u> There is no meaning, because the input of **_g_** is
+       the temperature
+       in degrees Fahrenheit and the input of **&fnof;** is the expected
+       attendance at the carnival.
+3. Given **&fnof;(_g_(_x_)) = 1800**, solve using the graphs for **_x_**.
+    1. Write it out: **_x_ &rarr; _g_ &rarr; \_\_\_ &rarr; _f_ &rarr; 1800
+       expected revenue**
+    2. Work your way backwards.
+        1. Looking at the graph, when the expected revenue is **1800**, the
+           expected attendance is **700**.
+        2. **_x_ &rarr; _g_ &rarr; <u>700</u> &rarr; _f_ &rarr; 1800 expected
+           revenue**
+        3. Looking at the graph, when the expected attendance is **700**, the
+           temperature is **77 degrees Fahrenheit**.
+        4. **<u>77</u> &rarr; _g_ &rarr; <u>700</u> &rarr; _f_ &rarr; 1800
+           expected revenue**
+    3. <u>**Meaning:**</u> When the expected revenue is **$1,800**, the
+       temperature is **77 degrees
+       Fahrenheit**.
+
+### Function Composition Example 3
+
+Given the following function, where **&fnof;** is the temperate in degrees
+Fahrenheit and **_C_** is the temperature in degrees Celsius:
+
+> **&fnof; = _m_(_C_) = <sup>9</sup>&frasl;<sub>5</sub>C + 32**
+
+1. Determine the formula for the inverse **_m_<sup>-1</sup>(&fnof;)**
+    1. Rewrite the formula without the notation
+        - &rarr; **&fnof; = <sup>9</sup>&frasl;<sub>5</sub>C + 32**
+    2. Subtract **32** from both sides
+        - &rarr; **&fnof; - 32= <sup>9</sup>&frasl;<sub>5</sub>C**
+    3. Multiply both sides by the reciprocal of **<sup>9</sup>&frasl;<sub>
+       5</sub>**, which is **<sup>5</sup>&frasl;<sub>9</sub>**
+        - &rarr; **<sup>5</sup>&frasl;<sub>9</sub>(&fnof; - 32) = C**
+    4. Rewrite the full notation
+        - &rarr; **<sup>5</sup>&frasl;<sub>9</sub>(&fnof; - 32) = C = _m_<sup>
+          -1</sup>(&fnof;)**
+2. Evaluate **_m_(_m_<sup>-1</sup>(115))**
+    1. Calculate **_m_<sup>-1</sup>(115)**
+        1. **<sup>5</sup>&frasl;<sub>9</sub>(115 - 32) = C = _m_<sup>-1</sup>(
+           &fnof;)**
+        2. **<sup>5</sup>&frasl;<sub>9</sub>(83) = C = _m_<sup>-1</sup>(&fnof;)
+           **
+        3. **46.11&deg;C = C = _m_<sup>-1</sup>(&fnof;)**
+    2. Calculate **_m_(46.11)**
+        1. **&fnof; = _m_(_C_) = <sup>9</sup>&frasl;<sub>5</sub>(46.11) + 32**
+        2. **&fnof; = _m_(_C_) = 83 + 32**
+        3. **&fnof; = _m_(_C_) = 115&deg;F**
+3. **_m_<sup>-1</sup>(_m_(20))**
+    1. Calculate **_m_(20)**
+        1. **&fnof; = _m_(_C_) = <sup>9</sup>&frasl;<sub>5</sub>(20) + 32**
+        2. **&fnof; = _m_(_C_) = 36 + 32**
+        3. **&fnof; = _m_(_C_) = 68&deg;F**
+    2. Calculate **_m_<sup>-1</sup>(68)**
+        1. **<sup>5</sup>&frasl;<sub>9</sub>(68 - 32) = C = _m_<sup>-1</sup>(
+           &fnof;)**
+        2. **<sup>5</sup>&frasl;<sub>9</sub>(36) = C = _m_<sup>-1</sup>(&fnof;)
+           **
+        3. **20&deg;C = C = _m_<sup>-1</sup>(&fnof;)**
+
+### Function Composition Example 4 - Reading a Table
+
+#### Table 1 - &fnof;(x)
+
+|  x  | &fnof;(x) |
+|:---:|:---------:|
+| -2  |     0     |
+| -1  |     3     |
+|  0  |     4     |
+|  1  |    -1     |
+|  2  |     6     |
+|  3  |    -2     |
+
+#### Table 2 - _g_(x)
+
+| x   | _g_(x) |
+|-----|--------|
+| -2  | 5      |
+| -1  | 3      |
+| 0   | 2      |
+| 1   | 1      |
+| 2   | -1     |
+| 3   | 0      |
+
+#### Image Version
+
+![](assets/function_composition_table_001.png)
+
+#### Solving For Various Function Compositions
+
+1. **&fnof;(&fnof;(3))**
+    1. Work your way backwards by finding the inner one first.
+    2. Find **&fnof;(3)** in Table 1
+        - **3** is the input in this scenario, so look for the corresponding
+          output.
+        - **&fnof;(3) = -2**
+    3. Find **&fnof;(&fnof;(3))**
+    4. **&fnof;(&fnof;(3)) = &fnof;(-2) = 0**
+2. **_g_(&fnof;(-1))**
+    1. **&fnof;(-1) = 3**
+    2. **_g_(&fnof;(-1)) = _g_(3) = 1**
+3. **_g_(_g_(0))**
+    1. **_g_(0) = 2**
+    2. **_g_(_g_(0)) = _g_(2) = -1**
+4. **&fnof;(_g_(3))**
+    1. **_g_(3) = 0**
+    2. **&fnof;(_g_(3)) = &fnof;(0) = 4**
+5. Given **&fnof;(_g_(_x_)) = 3**, find the value of **_x_**.
+    1. For this one, we are looking for the matching input value that will
+       produce an output of **3** for **_g_**.
+        - _Note: We still work backwards from the inner one._
+    2. **_g_(-1) = 3**
+    3. **_x_ = 3**
+6. **_g_<sup>-1</sup>(3)**
+    1. For inverse functions, it's the same as: **_g_(_x_) = 3**
+    2. Find the output that makes **_g_(_x_) = 3**
+    3. **_g_(-1) = 3**
+    4. **_g_<sup>-1</sup>(3) = -1**
+7. **&fnof;<sup>-1</sup>(0)**
+    1. **&fnof;(_x_) = 0**
+    2. **&fnof;(-2) = 0**
+    3. **&fnof;<sup>-1</sup>(0) = -2**
+8. **_g_<sup>-1</sup>(&fnof;<sup>-1</sup>(3))**
+    1. **&fnof;<sup>-1</sup>(3) = -1**
+    2. **_g_<sup>-1</sup>(-1) = 2**
+    3. **_g_<sup>-1</sup>(&fnof;<sup>-1</sup>(3)) = 2**
+9. **_g_(&fnof;<sup>-1</sup>(-2))**
+    1. **&fnof;<sup>-1</sup>(-2) = 3**
+    2. **_g_(3) = 0**
+    3. **_g_(&fnof;<sup>-1</sup>(-2)) = 0**
+
+### Function Composition Example 5
+
+#### Function Composition - Problem 5 Question
+
+> A spherical snowball with a radius of **6.4 centimeters**, when brought
+> inside, will melt in such a way that its radius decreases by a constant rate
+> of
+**2 centimeters per minute**.
+>
+> - The formula for the volume of a sphere as determined by the radius of the
+    sphere: **V = <sup>4</sup>&frasl;<sub>3</sub>&pi;_r_<sup>3</sup>**
+
+<u>Formulas:</u>
+
+- Function **&fnof;** that outputs the radius **_r_** _(measured in
+  centimeters)_ with respect to time, **_t_**
+    - **_r_ = &fnof;(_t_) = 6.4 - 2*t***
+- Function **_g_** that outputs the volume **_V_** of the snowball _(measured in
+  cubic centimeters)_ with respect to the radius length of the snowball, **_r_**
+  _(in centimeters)_
+    - **V = <sup>4</sup>&frasl;<sub>3</sub>&pi;_r_<sup>3</sup>**
+- Function **_h_** that outputs the volume **_V_** of the snowball _(measured in
+  cubic centimeters)_ with respect to time, **_t_**
+    - **_V_ = _h_(_t_) = _g_(&fnof;(_t_)) = <sup>4</sup>&frasl;<sub>3</sub>&pi;(
+      6.4 - 2*t*)<sup>3</sup>**
+- Evaluating **_h_(1.5)** and its meaning
+    - **_h_(1.5) = <sup>4</sup>&frasl;<sub>3</sub>&pi;(6.4 - 2 &times; 1.5)<sup>
+      3</sup> = 164.64cm<sup>3</sup>**
+    - After **1.5 minutes** since the snowball was brought inside, the volume of
+      the snowball is **164.64cm<sup>3</sup>**.
+
+### Function Composition Example 6 - Decomposing Functions
+
+- _Note: There is more than one way to decompose a function._
+
+Below are example functions for **&fnof;(m)** and **m = _g_(_x_)**:
+
+1. **&fnof;(_g_(_x_)) = 3(x - 1) + 5**
+    - If **_m_ = _g_(_x_) = x - 1**, then **&fnof;(_m_) = 3*m* + 5**
+2. **&fnof;(_g_(_x_)) = (x + 4)<sup>2</sup>**
+    - If **_m_ = _g_(_x_) = x + 4**, then **&fnof;(_m_) = _m_<sup>2</sup>**
+3. **&fnof;(_g_(_x_)) = (x + 2)<sup>2</sup> + 3(x + 2) + 1**
+    - If **_m_ = _g_(_x_) = x + 2**, then **&fnof;(_m_) = _m_<sup>2</sup> +
+      3*m* + 1**
+4. **&fnof;(_g_(_x_)) =
+   &radic;<span style="text-decoration:overline;">&nbsp;x - 1&nbsp;</span>**
+    - If **_m_ = _g_(_x_) = x - 1**, then **&fnof;(_m_) =
+      &radic;<span style="text-decoration:overline;">&nbsp;_m_&nbsp;</span>**
+5. **&fnof;(_g_(_x_)) = <sup>500</sup>&frasl;<sub>100 - x<sup>2</sup></sub>**
+    - If **_m_ = _g_(_x_) = 100 - x<sup>2</sup>**, then **&fnof;(_m_) = <sup>
+      500</sup>&frasl;<sub>_m_</sub>**
+
 # Module 17 - Systems of Equations
+
