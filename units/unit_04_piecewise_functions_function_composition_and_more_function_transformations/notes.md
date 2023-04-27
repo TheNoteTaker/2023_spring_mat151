@@ -72,6 +72,16 @@
       * [Function Composition - Problem 5 Question](#function-composition---problem-5-question)
     * [Function Composition Example 6 - Decomposing Functions](#function-composition-example-6---decomposing-functions)
 * [Module 17 - Systems of Equations](#module-17---systems-of-equations)
+  * [Module 17 - Google Slides](#module-17---google-slides)
+  * [Systems of Equations](#systems-of-equations)
+    * [Systems of Equations - Example 1](#systems-of-equations---example-1)
+    * [Systems of Equations - Example 2](#systems-of-equations---example-2)
+    * [Systems of Equations - Example 3](#systems-of-equations---example-3)
+    * [Systems of Equations - Example 4](#systems-of-equations---example-4)
+    * [Systems of Equations - Example 5](#systems-of-equations---example-5)
+    * [Systems of Equations - Example 6 - Graphing](#systems-of-equations---example-6---graphing)
+    * [Systems of Equations - Example 7 - Graphing](#systems-of-equations---example-7---graphing)
+    * [Systems of Equations - Example 8 - Graphing](#systems-of-equations---example-8---graphing)
 <!-- TOC -->
 
 # General Notes
@@ -1130,4 +1140,256 @@ Below are example functions for **&fnof;(m)** and **m = _g_(_x_)**:
       500</sup>&frasl;<sub>_m_</sub>**
 
 # Module 17 - Systems of Equations
+
+## Module 17 - Google Slides
+
+> **Links:**
+> [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRKx6psfOKJXN5qeuKIKQkPoI4FhD87RuucXIjbk898MVOuoPBK_OD4tW6ct6_Y0AKAxm0kFXv_jAyz/embed?start=false&loop=false&delayms=3000) | [PDF](https://learn.maricopa.edu/courses/1265474/files/93475763/download)
+>
+> <a href="https://docs.google.com/presentation/d/e/2PACX-1vRKx6psfOKJXN5qeuKIKQkPoI4FhD87RuucXIjbk898MVOuoPBK_OD4tW6ct6_Y0AKAxm0kFXv_jAyz/embed?start=false&loop=false&delayms=3000"><img alt="Google Slides" height="400" src="assets/module_17_preview.png" width="500"/></a>
+
+## Systems of Equations
+
+- A systems of equations is a group of two or more equations.
+- To solve for a system of equations, you must find the values of the variables
+  that make all of the equations true.
+- Some methods for solving systems of equations:
+    - **The Substitution Method**
+    - **The Elimination Method**
+    - **The Graphical Method**
+
+### Systems of Equations - Example 1
+
+> You just rented a new apartment and need to move your belongings from the old
+> apartment to the new one. You contact two rental companies and receive the
+> following information for the one-day cost of renting a moving van:
+>
+> - _Company A_: **$39.95 per day**, plus **$0.59 per mile**
+> - _Company B_: **$59.95 per day**, plus **$0.22 per mile**
+
+<u>Formulas:</u>
+
+- _Company A_: **_y_ = 39.95 + 0.59*x***
+- _Company B_: **_y_ = 59.95 + 0.22*x***
+
+<u>Graph:</u>
+
+![](assets/systems_of_equations_graph_001.png)
+
+<u>Solution:</u>
+
+The point at which both equations will cost the same _(making both equations
+true)_ is at **(x, y) = (54.054, 71.842)**.
+
+- If you're driving less than **54.054 miles**, then **Company A** is cheaper.
+- If you're driving more than **54.054 miles**, then **Company B** is cheaper.
+
+### Systems of Equations - Example 2
+
+Given two functions:
+
+- **y = 3*x* - 4**
+- **y = -*x* + 28**
+
+<u>Solution:</u>
+
+1. Solve for **x**.
+    1. Use substitution method since both equations are already solved for **y
+       **.
+    2. **3*x* - 4 = -*x* + 28**
+    3. **3*x* = -*x* + 32**
+    4. **4*x* = 32**
+    5. **x = 8**
+2. Solve for **y**
+    1. Plug in **x = 8** into either equation.
+    2. **y = 3*x* - 4**
+    3. **y = 3(8) - 4**
+    4. **y = 24 - 4**
+    5. **y = 20**
+3. Check your solution of **(8, 20)** by plugging both values into both
+   equations to ensure they are both accurate.
+    1. **y = 3*x* - 4**
+        1. **20 = 3(8) - 4**
+        2. **20 = 24 - 4**
+        3. **20 = 20**
+    2. **y = -*x* + 28**
+        1. **20 = -8 + 28**
+        2. **20 = 20**
+
+### Systems of Equations - Example 3
+
+Given two linear equations:
+
+- **y = 3*x* + 1**
+- **_x_ + 4*y* = 30**
+
+<u>Solution:</u>
+
+1. Solve for **x** using substitution
+    1. _Equation 1_ **y = 3*x* + 1** &rarr; _Equation 2_ **_x_ + 4*y* = 30**
+    2. **_x_ + 4(3*x* + 1) = 30**
+    3. **_x_ + 12*x* + 4 = 30**
+    4. **13*x* + 4 = 30**
+    5. **13*x* = 26**
+    6. **x = 2**
+2. Solve for **y** using substitution
+    1. **y = 3*x* + 1**
+    2. **y = 3(2) + 1**
+    3. **y = 6 + 1**
+    4. **y = 7**
+3. Check your solution of **(2, 7)** by plugging both values into both equations
+   to ensure they are both accurate.
+    1. **y = 3*x* + 1**
+        1. **7 = 3(2) + 1**
+        2. **7 = 6 + 1**
+        3. **7 = 7**
+    2. **_x_ + 4*y* = 30**
+        1. **2 + 4(7) = 30**
+        2. **2 + 28 = 30**
+        3. **30 = 30**
+
+### Systems of Equations - Example 4
+
+> Rashid works as a driver for both Lyft and Uber. After expenses such
+> as insurance, taxes, and gas are taken out of his pay, he makes about <u>**$20
+> every hour for Lyft**</u> and about <u>**$18 every hour for Uber**</u>.
+>
+> - **L = number of hours worked for Lyft**
+> - **U = number of hours worked for Uber**
+>
+> The following equations are true:
+>
+> - **3L = U**
+> - **20L + 18U = 370**
+
+<u>Solution:</u>
+
+- <u>**Meanings**</u>
+    - **3L = U**
+        - For every **3 hours worked for Lyft**, Rashid works **1 hour for
+          Uber**.
+    - **20L + 18U = 370**
+        - After working for both Lyft and Uber, Rashid makes **$370**.
+        - **20L**
+            - **20 dollars per hour pay &times; The amount of hours worked =
+              Total money made working at Lyft**
+        - **18U**
+            - **18 dollars per hour pay &times; The amount of hours worked =
+              Total money made working at Uber**
+- <u>**Solve for L**</u>
+    1. Because **3L = U**, we can substitute **U** for **3L** in the second
+       equation.
+    2. **20L + 18(3L) = 370**
+    3. **20L + 54L = 370**
+    4. **74L = 370**
+    5. **L = 5**
+- <u>**Solve for U**</u>
+    1. **3L = U**
+    2. **3(5) = U**
+    3. **15 = U**
+- <u>**Verify Solutions**</u>
+    1. **3L = U**
+        1. **3(5) = 15**
+        2. **15 = 15**
+    2. **20L + 18U = 370**
+        1. **20(5) + 18(15) = 370**
+        2. **100 + 270 = 370**
+        3. **370 = 370**
+- <u>Final Solution:</u>
+    - **L = 5 hours**
+    - **U = 15 hours**
+
+### Systems of Equations - Example 5
+
+> Chip and Dale both went to the store to buy snacks (chips and soda)
+> for a party.
+>
+> - **Chip paid $18** (before tax) and bought **four 2-liters of soda** and
+    **three bags of chips**.
+> - **Dale paid $20** (before tax) and bought **four 2-liters** and **4 bags
+    of chips**.
+>
+> _Note: Assume that they each paid the same price per item._
+
+
+<u>Variables:</u>
+
+- **C = price of bag of chips**
+- **S = price of 2-liter of soda**
+
+<u>Equations:</u>
+
+- **4S + 3C = 18**
+- **4S + 4C = 20**
+
+<u>Solution:</u>
+
+1. Use the elimination method to solve for **C**, coefficients are the same for
+   enough of the variables to leave only one left.
+    1. Flip one of the equations to negative.
+        - <u>_Equation 1:_</u> **-4S - 3C = -18**
+        - <u>_Equation 2:_</u> **4S + 4C = 20**
+    2. Add the equations together by combining like terms.
+    3. **(-4S + 4S) + (-3C + 4C) = (-18 + 20)**
+    4. **C = 2**
+2. Solve for **S** by plugging in **C** into either equation.
+    1. **4S + 3C = 18**
+    2. **4S + 3(2) = 18**
+    3. **4S + 6 = 18**
+    4. **4S = 12**
+    5. **S = 3**
+3. Check your solution of **(2, 3)** by plugging both values into both
+   equations to ensure they are both accurate.
+    1. **4S + 3C = 18**
+        1. **4(3) + 3(2) = 18**
+        2. **12 + 6 = 18**
+        3. **18 = 18**
+    2. **4S + 4C = 20**
+        1. **4(3) + 4(2) = 20**
+        2. **12 + 8 = 20**
+        3. **20 = 20**
+4. <u>Final Solution:</u>
+    - **C = 2**
+    - **S = 3**
+
+### Systems of Equations - Example 6 - Graphing
+
+Given the equations:
+
+- **a + b = 7**
+- **3a - 4b = -14**
+
+<u>Graph:</u>
+
+![](assets/systems_of_equations_graph_002.png)
+
+- Use **x** and **y** values instead of the random letters given.
+- You can graph the equations exactly as they are given.
+- Where the lines intersect is the solution to the systems of equations.
+
+---
+
+### Systems of Equations - Example 7 - Graphing
+
+Given the equations:
+
+- **2m - 2n = 3**
+- **m - 4n = 12**
+
+<u>Graph:</u>
+
+![](assets/systems_of_equations_graph_003.png)
+
+---
+
+### Systems of Equations - Example 8 - Graphing
+
+Given the equations:
+
+- **d = 2x - 12**
+- **d = -4x + 18**
+
+<u>Graph:</u>
+
+![](assets/systems_of_equations_graph_004.png)
 
